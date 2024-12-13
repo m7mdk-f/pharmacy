@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+    <!-- fonts -->
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/tailwindcss.css">
+  
+    <title>Buy</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+            font-family: Roboto;
+        }
+        body{
+              font-family: 'Roboto', sans-serif;
+            }
+        h1{
+              font-size: 65px;
+              line-height: 78.4px;
+              font-weight: 700;
+              color: rgb(41, 35, 35);
+            }
+            h2{
+              font-size:35px;
+              line-height: 43.2px;
+              font-weight: 700;
+              color: rgb(41, 35, 35);
+            }
+            h3{
+              font-size:15px;
+              line-height:23.8px;
+              font-weight: 400;
+              color: #212529;
+            }
+            @media screen and (max-width:800px) {
+              h1{
+                font-size: 50px;
+              line-height: 60px;
+              font-weight: 700;
+              }
+              h2{
+              font-size:35px;
+              line-height: 43.2px;
+              font-weight: 700;
+            }
+            h3{
+              font-size:20px;
+              line-height:28px;
+              font-weight: 700;
+            }}
+
+            @media screen and (max-width: 480px) {
+              h1{
+                font-size: 35px;
+              line-height: 36px;
+              font-weight: 700;
+              }
+              h2{
+              font-size:25px;
+              line-height: 30px;
+              font-weight: 700;
+            }
+            h3{
+              font-size:15px;
+              line-height:25.2px;
+              font-weight: 400;
+            }
+      
+             
+            }
+            .gray{
+              color: rgb(85, 85, 85);
+            }
+            .gray1{
+              color: rgb(161, 161, 161);
+            }
+    </style>
+    <section class="w-full pl-4 pr-9 bg-black py-3">
+      <header class="w-full flex justify-between md:hidden">
+        <img alt="ThemeForest" class="header-mini__logo--themeforest" src="https://public-assets.envato-static.com/assets/common/transparent-1px-93ae7d494fad0fb30cbf3ae746a39c4bc7a0f8bbf87fbb587a3f3c01f3c5ce20.png">
+      </header>
+        <header class="w-full md:flex justify-between hidden">
+            <a href="https://themeforest.net">
+                <p class="text-lime-600 inline text-[20px]"><i class="fa-brands fa-drupal"></i></p>
+                <span class="text-[25px] text-white font-Helvetica Neue">envato</span>
+                <span class="text-[23px] text-lime-600 font-thin">market</span>
+              </a>
+              <div>
+                <ul class="flex justify-between">
+                    <li class="bg-neutral-800 text-white font-semibold text-[12px] py-2 px-4 rounded-l mr-[0.5px]"><a href="#">Create an Envato Account</a></li>
+                    <li  class="bg-neutral-800 text-neutral-500 font-semibold text-[12px] py-2 px-4"><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></li>
+                    <li  class="bg-neutral-800 text-neutral-300 font-normal text-[12px] py-2 px-4 rounded-r ml-[0.5px]"><a href="#"> Sgin In</a></li>
+                </ul>
+              </div>
+        </header>
+    </section>
+    <section class="flex xl:px-32 md:px-5 pt-4">
+      <main class="md:w-[80%] w-full">
+        <section class="md:w-[97.5%] w-full border-[1px] border-neutral-200 rounded-t-md pt-1 px-5">
+          <div class="flex justify-between py-2">
+           <h2 class="text-[20px]">Create Account</h2>
+           <aside class="flex justify-between py-2 xl:w-[38%] md:w-[40%]">
+              <p class="text-[15px] gray mt-1">Already have an account?</p>
+           <a class="px-5 py-2 h-8 bg-neutral-500 rounded-sm text-white text-[13px]" href="#">Sgin In</a>
+           </aside>
+          </div>
+          <div class="h-[1px] bg-zinc-100 w-[35%] md:w-full mt-1 mx-auto "></div>
+          <div class="relative mt-5 w-full">
+           <a class=" w-full mx-auto border-[1.5px] rounded-md border-neutral-300 flex py-5 px-2 hover:bg-gray-50" href="https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?access_type=offline&client_id=210993992398-6j5f83b610ntihr41t44ron3e54uci6o.apps.googleusercontent.com&prompt=select_account&redirect_uri=https%3A%2F%2Faccount.envato.com%2Foauth%2Fgoogle%2Fcallback&response_type=code&scope=email%20profile&state=3a12457a09f31004b94710b59d63d0601d15013ce5fd96d0&service=lso&o2v=1&flowName=GeneralOAuthFlow">
+             <a href="https://account.envato.com/google/authenticate?to=themeforest&amp;_ga=2.30991551.108742410.1671301915-1933781195.1671301915" class="sc-kMjNwy bGsCqg sc-gYbzsP sc-cCjUiG sc-cUEOzv lBmkH fStQQK dpHvnj absolute  top-2 left-2" target="_self" rel=""><div class="sc-jOiSOi cduVJy"><img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yMC42NCAxMi4yMDQ3QzIwLjY0IDExLjU2NjUgMjAuNTgyNyAxMC45NTI5IDIwLjQ3NjQgMTAuMzYzOEgxMlYxMy44NDUxSDE2Ljg0MzZDMTYuNjM1IDE0Ljk3MDEgMTYuMDAwOSAxNS45MjMzIDE1LjA0NzcgMTYuNTYxNVYxOC44MTk3SDE3Ljk1NjRDMTkuNjU4MiAxNy4yNTI5IDIwLjY0IDE0Ljk0NTYgMjAuNjQgMTIuMjA0N1oiIGZpbGw9IiM0Mjg1RjQiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0xMS45OTk4IDIxLjAwMDFDMTQuNDI5OCAyMS4wMDAxIDE2LjQ2NyAyMC4xOTQyIDE3Ljk1NjEgMTguODE5NkwxNS4wNDc1IDE2LjU2MTRDMTQuMjQxNiAxNy4xMDE0IDEzLjIxMDcgMTcuNDIwNSAxMS45OTk4IDE3LjQyMDVDOS42NTU2NyAxNy40MjA1IDcuNjcxNTggMTUuODM3NCA2Ljk2Mzg1IDEzLjcxMDFIMy45NTcwM1YxNi4wNDE5QzUuNDM3OTQgMTguOTgzMyA4LjQ4MTU4IDIxLjAwMDEgMTEuOTk5OCAyMS4wMDAxWiIgZmlsbD0iIzM0QTg1MyIvPgo8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTYuOTY0MDkgMTMuNzA5OEM2Ljc4NDA5IDEzLjE2OTggNi42ODE4MiAxMi41OTMgNi42ODE4MiAxMS45OTk4QzYuNjgxODIgMTEuNDA2NiA2Ljc4NDA5IDEwLjgyOTggNi45NjQwOSAxMC4yODk4VjcuOTU4MDFIMy45NTcyN0MzLjM0NzczIDkuMTczMDEgMyAxMC41NDc2IDMgMTEuOTk5OEMzIDEzLjQ1MjEgMy4zNDc3MyAxNC44MjY2IDMuOTU3MjcgMTYuMDQxNkw2Ljk2NDA5IDEzLjcwOThaIiBmaWxsPSIjRkJCQzA1Ii8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMTEuOTk5OCA2LjU3OTU1QzEzLjMyMTEgNi41Nzk1NSAxNC41MDc1IDcuMDMzNjQgMTUuNDQwMiA3LjkyNTQ1TDE4LjAyMTYgNS4zNDQwOUMxNi40NjI5IDMuODkxODIgMTQuNDI1NyAzIDExLjk5OTggM0M4LjQ4MTU4IDMgNS40Mzc5NCA1LjAxNjgyIDMuOTU3MDMgNy45NTgxOEw2Ljk2Mzg1IDEwLjI5QzcuNjcxNTggOC4xNjI3MyA5LjY1NTY3IDYuNTc5NTUgMTEuOTk5OCA2LjU3OTU1WiIgZmlsbD0iI0VBNDMzNSIvPgo8L3N2Zz4K" class="text-gray-400  rounded-md  mr-auto"></div></a>
+             <p class="mx-auto text-center gray font-semibold absolute top-2 left-[38%]">Continue with Google</p>
+            </a>
+          </div>
+          <main class="flex relative mb-5">
+           <div class="h-[1px] bg-zinc-100 w-[35%] md:w-[48%] mt-6 mr-auto "></div>
+           <div class="h-[1px] bg-zinc-100 w-[35%] md:w-[48%] mt-6 ml-auto "></div>
+           <p class="absolute left-[49%] top-4 text-[13px] gray">or</p>
+          </main>
+          <main>
+           <form class="w-full" >
+             <div class="w-full flex justify-between">
+               <label class=" w-full">
+                 <span class="text-[13px]">First Name</span>
+                 <input required type="text" class="h-8 w-[98%] outline-blue-300 outline-[1px] block border-[1px] border-gray-300 rounded-sm px-3">
+               </label>
+               <label class="w-full">
+                 <span class="text-[13px] ml-2">Last Name</span>
+                 <input required type="text" class="ml-auto h-8 w-[98%] outline-blue-300 outline-[1px] block border-[1px] border-gray-300 rounded-sm px-3">
+               </label>
+             </form>
+             </div>
+           <form class="w-full mt-10">
+             <label class="w-full">
+               <span class="text-[13px] ml-2">Email</span>
+               <input type="email" required class="w-full py-1 outline-blue-300 outline-[1px] block border-[1px] border-gray-300 rounded-sm px-3">
+             </label>
+             <label class="w-full mt-10">
+               <span class="text-[13px] ml-2">User name</span>
+               <input type="text" required class="w-full py-1 outline-blue-300 outline-[1px] block border-[1px] border-gray-300 rounded-sm px-3">
+             </label>
+             <label class="w-full mt-10">
+               <span class="text-[13px] ml-2">Password</span>
+               <input type="password" required class="w-full py-1 outline-blue-300 outline-[1px] block border-[1px] border-gray-300 rounded-sm px-3">
+             </label>
+           </form>
+          </main>
+          <main class="mt-7">
+         <iframe title="reCAPTCHA" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LcigAcTAAAAAAruaW_goIkW3FD2oZR40YqDXgcB&amp;co=aHR0cHM6Ly90aGVtZWZvcmVzdC5uZXQ6NDQz&amp;hl=en&amp;type=image&amp;v=5qcenVbrhOy8zihcc2aHOWD4&amp;theme=light&amp;size=normal&amp;badge=bottomright&amp;cb=kgr7mxk2u0s4" width="304" height="78" role="presentation" name="a-wuti4jarwhat" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+          </main>
+          <main class="mt-7 flex justify-between w-[54%]">
+           <input  type="checkbox" class="w-9" value="" checked="">
+           <p class="text-[14px] gray ml-4 leading-7 w-[100%] ">Send me tips, trends, freebies, updates & offers.You can unsubscribe at any time.</p>
+          </main>
+              <div class="h-[1px] bg-zinc-100 w-[35%] md:w-full mt-6 mx-auto "></div>
+              <div class="py-5">
+               <p class="text-[14px] gray text-center w-[98%]">Envato collects and uses personal data in accordance with our <a class="underline" href="#">Privacy Policy</a>. By creating an account, you agree to our <a class="underline" href="#">Terms & Conditions</a> .</p>
+              </div>
+            </section>
+            <div class="mt-0 ml-0 bg-zinc-100 w-[97.5%] border-[1px] border-neutral-200 rounded-b-md pl-[65%] py-5">
+             <a href="#" class="bg-[rgb(130,180,64)] py-2 text-white rounded-md px-5 border-b-2 border-b-lime-600 ">Creat account & Continue</a>
+           </div>
+           <div class="py-5 px-4 w-[95%] border-[1px] border-neutral-200 rounded-md mt-7">
+             <h3 class="text-[21px] font-medium gray1">Billing Details</h3>
+           </div>
+           <div class="py-5 px-4 w-[95%] border-[1px] border-neutral-200 rounded-md mt-7">
+             <h3 class="text-[21px] font-medium gray1">Select Payment Method</h3>
+           </div>
+           <h3 class="mt-8 gray pb-3 text-[13px]">© 2022 Envato Pty Ltd. Trademarks and brands are the property of their respective owners.</h3>
+       </main>
+       <div class="w-[30%]">
+        <main class="rounded-md bg-gray-50 border-[1px] w-[100%] h-[20%] px-4 pt-4 pb-2 hidden md:inline-block">
+          <h3 class="text-[19px] font-semibold">Order Summary</h3>
+          <div class="h-[1px] bg-zinc-200 w-[35%] md:w-full mt-2 mx-auto "></div>        
+           <div class="flex mt-3 justify-between">
+            <h3 class="text-[14px] gray">Covax - Doctor Medical &...</h3>
+            <h3  class="text-[14px] gray">$20.00</h3>
+          </div>
+          <div class="h-[1px] bg-zinc-200 w-[35%] md:w-full mt-3  mx-auto "></div>
+          <div class="flex justify-between mt-3">
+            <h3  class="text-[14px] gray">Handling Fee: <path fill-rule="evenodd" clip-rule="evenodd" d="M0 6.5a6 6 0 1 0 12 0 6 6 0 0 0-12 0zm7.739-3.17a.849.849 0 0 1-.307.664.949.949 0 0 1-.716.273c-.273 0-.529-.102-.716-.272a.906.906 0 0 1-.307-.665c0-.256.102-.512.307-.682.187-.17.443-.273.716-.273.273 0 .528.102.716.273a.908.908 0 0 1 .307.682zm-.103 6.34-.119.46c-.34.137-.613.24-.818.307a2.5 2.5 0 0 1-.716.103c-.409 0-.733-.103-.954-.307a.953.953 0 0 1-.341-.767c0-.12 0-.256.017-.375.017-.12.05-.273.085-.426l.426-1.517a7.14 7.14 0 0 1 .103-.41c.017-.119.034-.238.034-.357a.582.582 0 0 0-.12-.41c-.085-.068-.238-.119-.46-.119-.12 0-.239.017-.34.051-.069.03-.132.047-.189.064-.042.012-.082.024-.119.038l.12-.46c.234-.102.468-.18.69-.253l.11-.037c.24-.085.478-.119.734-.119.409 0 .733.102.954.307.222.187.341.477.341.784 0 .068 0 .187-.017.34v.003a2.173 2.173 0 0 1-.085.458l-.427 1.534-.102.41v.002c-.017.119-.034.237-.034.356 0 .204.051.34.136.409.137.085.307.119.46.102a1.3 1.3 0 0 0 .359-.051c.085-.051.17-.085.272-.12z" fill="#0084B4"></path></h3>
+            <h3  class="text-[14px] gray">$0.00</h3>
+          </div>
+          <div class="h-[1px] bg-zinc-200 w-[35%] md:w-full mt-3 mx-auto "></div>
+          <div class="flex justify-between mt-3">
+            <h3 class="text-[18px] font-semibold">Total:</h3>
+            <h3 class="text-[18px] font-semibold">US$ 20.00</h3>
+          </div>
+        </main>
+        <main class="md:flex justify-between w-[50%] mx-auto mt-5 hidden ">
+          <h3 class="gray1"><i class="fa-solid fa-lock"></i></h3>
+          <h3 class="gray1 text-[16px]">Secure checkout</h3> 
+        </main>
+       </div>
+      
+    </section>
+
+    <a   href="https://themeforest.net/checkout/from_item/29123542?license=regular&amp;support=bundle_6month&amp;_ga=2.101972547.317761313.1648883762-918236941.1644836235"  class="buy-now-btn"><img class="inline-block w-" src="./images/envato.png" alt="envato">Buy Now</a>
+   </body>
+</html>

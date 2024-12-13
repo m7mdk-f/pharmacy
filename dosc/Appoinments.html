@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+    <!-- fonts -->
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/tailwindcss.css">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+    <title>  Appoinments  </title>
+</head>
+<body>
+    <style>
+        .firstarticle{
+      background-image: url('./images/page-bg-2 (2).jpg');
+      background-position: center center ;
+      background-attachment: fixed;
+      background-size: cover;
+      height: 73vh;
+      position: relative;
+    }
+    .firstarticle::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(41 35 35 / 75%);
+      top: 0;
+      z-index: 1;
+    }
+    .ul >li{
+      text-align: left;
+    }   
+    .trans:hover{
+transform: scale(1.1);
+z-index: 100;
+}
+.trans{
+transition: 0.5s;
+}
+
+.trans_5{
+transition: 0.5s;
+}
+.back{
+background-color:rgba(0, 0, 0, 0.76) ;
+transition: .5s;
+}
+.dadbg:hover .bghover{
+transform: scale(1);
+opacity: 1;
+}
+.trans1{
+transition: 1s;
+}
+.scale_0{
+transform: scale(0);  
+}
+    </style>
+
+<article class=" fixed flex justify-center items-center z h-14 xl:h-24  left-0 right-0 top-0 mx-auto bg-white shadow2 z-50 ">
+  <nav class="  w-90% xl:w-4/5 mx-auto flex justify-between items-center  font-medium border-none">
+
+    <div class="logo  xl:pl-6">
+      <img src="./images/logo.png" alt="">
+    </div>
+
+    <ul class="  w-75% ul text-right hidden xl:block  text-navcolor ">
+
+      <li class="inline-block mx-2 pb-6 hovlanguges hover:text-text-primry transition0_4 "> <a class=" " href="#">Home <i
+            class="fa-solid fa-chevron-down text-xs  font-semibold    "></i>
+          </a>
+          <ul class="  languges absolute transition0_8 bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 text-navcolor ">
+            <li class="hoverlink transition0_4  mb-3"> <a  href="./index.html"> Home One</a></li>
+            <li class="hoverlink transition0_4 mb-3"> <a   href="./Home Two.html  "> Home Two</a></li>
+            <!-- <li class="hoverlink transition0_4 mb-3"> <a   href="./Home three.html"> Home Three</a></li> -->
+          </ul>
+
+
+        
+      </li>
+
+
+      <li class="inline-block mx-2  pb-6 hovlanguges  hover:text-text-primry transition0_4">
+        <a href="#">
+          Pages <i class="fa-solid fa-chevron-down text-xs  font-semibold   "></i>
+        </a>
+
+        <ul class=" languges absolute bg-white p-5 w-60  top-70px shadow-lg shadow1 text-navcolor  hidden opacity-0">
+          <li class="hoverlink  transition0_4  mb-3">
+            <a  href="./About.html">
+              About
+            </a>
+          </li>
+
+          <li class="hoverlink transition0_4   mb-3">
+            <a  href="./Team.html">
+              Team
+            </a>
+          </li>
+
+          <li class="hoverlink transition0_4  mb-3">
+            <a  href="FAQ.html">
+              FAQ
+            </a>
+          </li>
+
+          <li class="hoverlink transition0_4  mb-3">
+            <a  href="Gallery.html">
+              Gallery
+            </a>
+          </li>
+          <li class="hoverlink transition0_4  mb-3">
+          <li class="hoverlink  transition0_4 mb-3">
+            <a  href="Testimonials.html">
+              Testimonials
+            </a>
+          </li>
+          <!-- User Mune -->
+
+          <li class=" parant  mb-3 bl-1 ">
+            <a href="#" class=" hoverlink  transition0_4">
+              User
+              <img class="inline-block float-right align-baseline" src="./images/svgexport-1.png" alt="">
+            </a>
+
+
+            <ul
+              class=" child  absolute bg-white p-3 w-[109%]  top-1/2 -mt-30px -left-255px shadow-lg shadow2 hidden opacity-0">
+              <li class=" hoverlink  transition0_4  mb-3">
+                <a  href="Sign In.html">
+                  Sign In
+                </a>
+              </li>
+              <li class="hoverlink transition0_4  mb-3">
+                <a  href="Sign-Up.html">
+                  Sign Up
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="hoverlink transition0_4  mb-3">
+            <a  href="templates.html">
+              Terms &amp; Conditions
+            </a>
+          </li>
+          <li class="hoverlink transition0_4  mb-3">
+            <a  href="Privacy Policy.html">
+              Privacy Policy
+            </a>
+          </li>
+          <li class="hoverlink  transition0_4 mb-3">
+            <a  href="Error.html">
+              Error Page
+            </a>
+          </li>
+          <li class="hoverlink transition0_4  mb-3">
+            <a  href="Contact Us.html">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </li>
+
+
+      <li class="inline-block mx-2 pb-6 hovlanguges hover:text-text-primry transition0_4 "> <a class="" href="#">Services <i
+            class="fa-solid fa-chevron-down text-xs  font-semibold   "></i> </a>
+
+        <ul class="  languges absolute bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 text-navcolor">
+          <li class="hoverlink transition0_4  mb-3"> <a   href="./Services.html"> Services</a></li>
+          <li class="hoverlink transition0_4 mb-3"> <a  href="./Services Details.html"> Services Details</a></li>
+        </ul>
+      </li>
+
+
+      <li class="inline-block mx-2 pb-6 hovlanguges hover:text-text-primry transition0_4"> <a class="" href="#">Our Doctors <i
+            class="fa-solid fa-chevron-down text-xs  font-semibold  "></i> </a>
+
+        <ul class="  languges absolute bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 text-navcolor  ">
+          <li class="hoverlink transition0_4  mb-3"> <a  href="./Doctors.html"> Doctors</a></li>
+          <li class="hoverlink transition0_4 mb-3"> <a  href="./Doctors Details.html"> Doctors Details</a></li>
+        </ul>
+
+      </li>
+
+      <li class="inline-block mx-2 hovlanguges pb-6 hover:text-text-primry transition0_4"> <a class="" href="#">Blog <i
+            class="fa-solid fa-chevron-down text-xs  font-semibold   "></i> </a>
+
+        <ul class="  languges absolute bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 text-navcolor">
+          <li class="hoverlink transition0_4  mb-3"> <a  href="./Blog.html"> Blog</a></li>
+          <li class="hoverlink transition0_4 mb-3"> <a  href="./Blog Details"> Blog Details</a></li>
+        </ul>
+
+      </li>
+
+      <li class="inline-block mx-2 text-text-primry hover:text-text-primry transition0_4"> <a  href="./Appoinments.html">Appoinments</a> </li>
+
+
+      <li id="languge" class="inline-block mx-2   relative hovlanguges hover:text-text-primry  transition0_4">
+        <a class="    py-6  font-medium align-bottom mt-2  ">
+          Language <i class="fa-solid fa-chevron-down text-xs  font-semibold  "></i>
+        </a>
+        <div id="suplanguge" class=" languges  absolute w-52 top-10 hidden opacity-0 shadow-lg shadow1 text-navcolor  ">
+          <ul class="   p-5   bg-white  ">
+            <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/english.png"
+                alt=""> <a class="inline-block" href="#"> English</a></li>
+            <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/arab.png" alt="">
+              <a href="#"> العربية</a>
+            </li>
+            <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/germany.png"
+                alt=""> <a href="#"> Deutsch</a> </li>
+            <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/portugal.png"
+                alt=""> <a href="#"> 󠁥Português</a> </li>
+            <li class="hover:text-blue-600"><img class=" inline-block w-5 mr-2" src="./images/china.png" alt=""><a
+                href="#"> 简体中文</a> </li>
+          </ul>
+
+
+        
+        </div>
+      </li>
+
+      <li class="inline-block ml-4">
+
+        
+        <button style="padding: 12px 24px ;" class=" bg-text-primry   transition0_8 text-white but1  rounded-md">
+          <a    href="./Contact Us.html"> <span>Contacts Us</span> </a>
+        </button>
+        <script>
+          const but = document.querySelector('.but1');
+          but.onmousemove = function(e){
+              const x = e.pageX - but.offsetLeft;
+              const y = e.pageY - but.offsetTop;
+             
+              but.style.setProperty('--x' , x + 'px');
+              but.style.setProperty('--y' , y + 'px');
+          }   
+      </script>
+      </li>
+
+    </ul>
+
+    <!-- mycomment -->
+    <!---------------------------------------------------------phon secren------------------------------------------------------>
+<!-- Button -->
+    <div class=" xl:hidden flex items-center relative">
+      <button id="navicon">
+          <svg class=" w-12 h-12 text-blue-500  " x-show="!showMenu" fill="none"
+              stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 28 28"
+              stroke="currentColor">
+              <path d="M4 6h16M4 12h16M4 18h16"></path>
+          </svg>
+      </button>
+  </div>
+
+<!--  Mnue -->
+  <div id="mobilemenu" class="hidden absolute w-90% mx-auto  left-0 right-0 top-20 xl:top-28 z-50 height shadow2 shadow-lg   ">
+      <ul
+          class="  bg-white w-full text-left pl-5  h-96 text-sm font-normal text-defaultcolor overflow-auto height ">
+
+          <li id="Home" >
+            <a href="#" class=" relative flex  p-4  border-b-2  transition0_8  border-blue-50 ">
+               Home<i id="plus" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+           </a>
+            
+
+            <ul id="SupHome" class=" hidden pl-10  transition0_8  ">
+              <li class=" block p-4  border-b-2  transition0_8  border-blue-50"> <a  href="./index.html"> Home One</a></li>
+              <li class=" block p-4  border-b-2  transition0_8  border-blue-50"> <a   href="./Home Two.html  "> Home Two</a></li>
+              <!-- <li class=" block p-4  border-b-2  transition0_8  border-blue-50"> <a   href=""> Home Three</a></li> -->
+            
+            <script>
+                    const btn = document.getElementById('navicon')
+                    const menu = document.getElementById('mobilemenu')
+                const Home = document.getElementById('Home')
+                const SupHome = document.getElementById('SupHome')
+                const plus = document.getElementById('plus')
+            
+                btn.addEventListener('click', () => {
+            
+                    menu.classList.toggle('hidden');
+                });
+
+                Home.addEventListener('click', () => {
+                  SupHome.classList.toggle('hidden')
+                  plus.classList.toggle('fa-plus');
+            });
+            </script>
+           
+            </ul>
+          </li>
+         
+         
+          <li  id="page">
+            <a  href="#" class= "p-4 flex   relative  border-b-2 border-blue-50 ">
+              Pages<i id="plus1" class="fa-solid fa-plus fa-minus  ml-auto inline-block text-defaultcolor  "> </i>
+            </a>
+
+            <ul id="SupPage" class=" hidden  pl-10">
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="./About.html">
+                  About
+                </a>
+              </li>
+    
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="./Team.html">
+                  Team
+                </a>
+              </li>
+    
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="FAQ.html">
+                  FAQ
+                </a>
+              </li>
+    
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="Gallery.html">
+                  Gallery
+                </a>
+              </li>
+              <li class="hblock p-4  border-b-2  transition0_8  border-blue-50">
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="Testimonials.html">
+                  Testimonials
+                </a>
+              </li>
+              <!-- User Mune -->
+    
+              <li class=" parant block p-4  border-b-2  transition0_8  border-blue-50 ">
+                <a href="#" class=" hoverlink  transition0_4">
+                  User
+                  <img class="inline-block float-right align-baseline" src="./images/svgexport-1.png" alt="">
+                </a>
+    
+    
+                <ul
+                  class=" child  absolute bg-white p-3 w-[109%]  top-1/2 -mt-30px -left-255px shadow-lg shadow2 hidden opacity-0">
+                  <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                    <a  href="Sign In.html">
+                      Sign In
+                    </a>
+                  </li>
+                  <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                    <a  href="Sign-Up.html">
+                      Sign Up
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="templates.html">
+                  Terms &amp; Conditions
+                </a>
+              </li>
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="Privacy Policy.html ">
+                  Privacy Policy
+                </a>
+              </li>
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="Error.html">
+                  Error Page
+                </a>
+              </li>
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                <a  href="Contact Us.html">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          
+            <script>
+             
+              const page = document.getElementById('page')
+              const SupPage = document.getElementById('SupPage')
+              const plus1 = document.getElementById('plus1')
+          
+              page.addEventListener('click', () => {
+          
+                SupPage.classList.toggle('hidden');
+                plus1.classList.toggle('fa-plus');
+          });
+          </script>
+          
+          
+          
+          
+          </li>
+         
+         
+          <li id="Services">
+            <a href="#" class="flex p-4 border-b-2 border-blue-50 hoverlink transition0_4">
+              Services<i id="plus2" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+            </a>
+          
+             <ul id="SupServices" class="  pl-10 hidden ">
+                <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a  href="./Services.html"> Services</a></li>
+                <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a  href="./Services Details.html"> Services Details</a></li>
+             </ul>
+             <script>
+             
+              const Services = document.getElementById('Services')
+              const SupServices = document.getElementById('SupServices')
+              const plus2 = document.getElementById('plus2')
+          
+              Services.addEventListener('click', () => {
+          
+                SupServices.classList.toggle('hidden');
+                plus2.classList.toggle('fa-plus');
+          });
+          </script>
+          
+          </li>
+
+
+          <li id="Doctors">
+              <a href="#" class="flex p-4 border-b-2 border-blue-50 hoverlink transition0_4">
+                Doctors<i id="plus3" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+              </a>
+
+              <ul id="SupDoctors" class="  hidden pl-10 ">
+                <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a   href="./Doctors.html"> Doctors</a></li>
+                <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a  href="./Doctors Details.html"> Doctors Details</a></li>
+              </ul>
+              <script>
+             
+                const Doctors = document.getElementById('Doctors')
+                const SupDoctors = document.getElementById('SupDoctors')
+                const plus3 = document.getElementById('plus3')
+            
+                Doctors.addEventListener('click', () => {
+            
+                  SupDoctors.classList.toggle('hidden');
+                  plus3.classList.toggle('fa-plus');
+            });
+            </script>
+          </li>
+
+
+          <li id="Blog">
+             <a href="#" class="flex p-4 border-b-2 border-blue-50 hoverlink transition0_4">
+                Blog<i id="plus4" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+            </a>
+
+            <ul id="SupBlog" class="   hidden pl-10 ">
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a  href="./Blog.html"> Blog</a></li>
+              <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a  href="./Blog Details.html"> Blog Details</a></li>
+            </ul>
+
+            <script>
+             
+              const Blog = document.getElementById('Blog')
+              const SupBlog = document.getElementById('SupBlog')
+              const plus4 = document.getElementById('plus4')
+          
+              Blog.addEventListener('click', () => {
+          
+                SupBlog.classList.toggle('hidden');
+                plus4.classList.toggle('fa-plus');
+          });
+          </script>
+
+
+
+        </li>
+          <li> <a class=" block p-4  border-b-2 border-blue-50 text-text-primry hover:text-blue-600 transition0_8 mr-8  "
+               href="./Appoinments.html">Appoinments</a></li>
+          <li class=" block p-4 ">
+              <div class="  W-1/4    ">
+
+                  <button
+                      class=" bg-text-primry  transition0_8 text-white  but1 rounded-lg">
+                      <a href="./Contact Us.html"> <span> Contacts Us</span> </a></button>
+                      <script>
+                        const but = document.querySelector('.but1');
+                        but.onmousemove = function(e){
+                            const x = e.pageX - but.offsetLeft;
+                            const y = e.pageY - but.offsetTop;
+                           
+                            but.style.setProperty('--x' , x + 'px');
+                            but.style.setProperty('--y' , y + 'px');
+                        }   
+                    </script>
+              </div>
+          </li>
+      </ul>
+<!---------------------------------------------------------phon secren------------------------------------------------------>
+
+    
+
+    
+  </div>
+    
+
+  </nav>
+</article>  
+
+
+
+<article class=" firstarticle flex justify-center items-center bg-[url('./images/page-bg-5') h-  bg-center py-12 lg:py-24 ">
+    <div class=" text-white text-sm text-center  z-20  ">
+        <p class="text-4xl font-bold   my-4">Appoinments </p>
+         <a class="hover:text-text-primry transition0_8" href="./index.html"> Home </a> <span> / Appoinments </span>
+    </div>
+</article>
+
+
+<article class=" pt-24 lg:pb-8 xl:pb-16 bg-bg-one">
+    <div class="xl:w-4/5 mx-auto p-3">
+        <div
+            class=" grid  grid-cols-1 md:grid-cols-2 place-items-center gap-10 xl:gap-24 w-full lg:w-[95%] xl:w-full mx-auto ">
+            <div class="">
+                <div class="text pr-2 ">
+                    <span
+                        class=" relative mr-36 md:mr-0 before:h-px before:w-24 before:absolute before:bg-black before:bottom-2 before:left-24 ">Appointment</span>
+                    <h2 class="  md:text-h2text md:leading-10 font_wieght my-4">We provide the right treatment in
+                        the right doctor</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
+                        laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                        architecto beatae vitae dicta sunt explicabo.</p>
+                    <p class="my-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="form ">
+                    <form class="w-full grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="w-full">
+                            <label class="w-full ">
+                                <input class=" w-full h-12 border-none py-2 px-4 focus:border-none rounded-md "
+                                    type="text" placeholder=" First Name">
+                            </label>
+                        </div>
+                        <div>
+
+                            <label>
+                                <input class=" w-full h-12 border-none py-2 px-4 focus:border-none " type="text"
+                                    placeholder=" Last Name">
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <select class=" w-full h-12 border-none py-2 px-4  focus:border-none ">
+                                    <option selected>Select doctor</option>
+                                    <option>Dr. William</option>
+                                    <option>Dr. James</option>
+                                    <option>Dr. Harper</option>
+                                    <option>Dr. Mason</option>
+                                    <option>Dr. Evelyn</option>
+                                </select>
+
+
+                            </label>
+                        </div>
+                        <div>
+                            <label>
+                                <select class="w-full h-12 border-none py-2 px-4  focus:border-none">
+                                    <option selected>Select departments</option>
+                                    <option>Dental Care</option>
+                                    <option>Cardiology</option>
+                                    <option>Neurology</option>
+                                    <option>Orthopedics</option>
+                                    <option>Medicine</option>
+                                </select>
+                            </label>
+                        </div>
+                        <div>
+                            <label class="w-full ">
+                                <input class=" w-full h-12 border-none py-2 px-4 focus:border-none "
+                                    type="datetime-local" placeholder=" Date & Time">
+                            </label>
+                        </div>
+                        <div>
+                            <label class="w-full ">
+                                <input class=" w-full h-12 border-none py-2 px-4 focus:border-none " type="number"
+                                    placeholder=" Contact Number">
+                            </label>
+                        </div>
+                    </form>
+                    <div class="button mt-6">
+                        <button
+                          style="z-index: 20;"  class="  w-full bg-text-primry   transition0_8 text-white  py-3 px-7 but1  rounded-lg">
+                            <a href="#"><span>Confirm An Appointment</span>  </a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="images lg:pt-12 ">
+                <div class=" relative w-full  ">
+                    <div class="firstimg relative">
+                        <img class=" w-full rounded-40px" src="./images/first.jpg" alt="">
+                    </div>
+                    <div class=" absolute top-6 -right-2 md:top-10 lg:-right-4  xl:-right-16 AnmImg1">
+                        <img class="w-32  md:w-52 rounded-10px md:rounded-30px  border-4 border-white border-solid"
+                            src="./images/therrd.jpg" alt="">
+                    </div>
+                    <div class=" absolute  top-1/2  lg:top-52  xl:bottom-6 lg:-left-4 xl:-left-16 AnmImg1">
+                        <img class="w-32  md:w-52  rounded-10px md:rounded-30px border-4 border-white border-solid"
+                            src="./images/sacand.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</article>
+
+
+<article class=" ">
+    <div class=" w-full xl:w-4/5 mx-auto p-3 md:p-10 ">
+      <section class="     grid grid-cols-1 md:grid-cols-2 gap-3 xl:items-center">
+        <main class=" w-full">
+          <div class="w-full">
+            <h2 class="md:text-h2text font_wieght my-5 ">Need a doctor for a pet check-up just make quick appointment
+            </h2>
+            <p class=" ">We are one of the best company for your to make a good doctor
+              for you & you can easily. We are one of the best agency to make appoint you a good doctors intoa proper
+              way.
+              This will help us to make a proper way of work & this is one of the of the best way for making this.</p>
+          </div>
+          <div class=" mt-9  ">
+            <form class="mb-7 grid md:grid-cols-2 gap-6 ">
+              <aside class="w-full relative  mx-auto">
+                <input class="  outline-none rounded-30px py-3 px-5 w-full  border-sky-500 border bg-sky-50"
+                  type="text" placeholder="Enter your name">
+                <i class="fa-regular fa-user absolute top-4  right-5  text-text-primry"></i>
+
+              </aside>
+              <aside class=" w-full relative   mx-auto ">
+                <input class=" outline-none rounded-30px py-3 px-5 w-full border-sky-500 border bg-sky-50"
+                  type="email" placeholder="Enter your email">
+                <i class="fa-regular fa-envelope  absolute top-4  right-5 text-text-primry"></i>
+              </aside>
+              <aside class="w-full  mx-auto">
+                <input class=" outline-none rounded-full py-3 px-5 w-full border-sky-500 border bg-sky-50"
+                  type="datetime" placeholder="Date & Time">
+
+
+              </aside>
+              <aside class=" w-full relative mx-auto">
+                <input class=" outline-none rounded-full py-3 px-5 w-full border-sky-500 border bg-sky-50"
+                  type="number" placeholder="Contact number">
+                <i class="fa-solid fa-phone-volume  absolute top-4  right-5 text-text-primry"></i>
+
+              </aside>
+              <aside class="w-full  mx-auto">
+                <input class=" outline-none rounded-full py-3 px-5 w-full border-sky-500 border bg-sky-50"
+                  type="time" placeholder="Time">
+
+              </aside>
+              <div>
+                <button href="#"
+               style="z-index: 20;padding: 14px 20px;" class="block w-98% mx-auto px-5 py-3 text-sm but1 bg-blue-500 rounded-full text-center text-white ">
+                 <span>Confirman Appointment </span> </button>
+              </div>
+            </form>
+            <div>
+           
+        </main>
+
+        <div class="mt-7 relative  ">
+          <aside class="w-full mx-auto relative xl:ml-5">
+            <img class="w-full rounded-20px shadow-slate-300 shadow-2xl "
+              src="images/Covax - Medical Health Clinic & Doctor Template_files/Covax - Medical Health Clinic & Doctor Template_files/check-up.jpg">
+          </aside>
+          <aside class="w-24 absolute -left-6 -bottom-5 -z-50 lg:-left-4 xl:-left-1 md:-bottom-4 AnmCircle">
+            <img class="w-full" src="images/Covax - Medical Health Clinic & Doctor Template_files/shape-5.png">
+          </aside>
+        </div>
+      </section>
+    </div>
+  </article>
+  
+  <article class=" mt-10 bg-doctorbg pt-12 md:py-24  ">
+    <div class=" w-full xl:w-4/5 mx-auto flex justify-center lg:justify-between  px-3 lg:px-6   ">
+        <a href="#"><img src="./images/partner3.png" alt=""> </a>
+        <a class="hidden lg:block"   href="#"><img src="./images/partner5.png" alt=""> </a>
+        <a class="hidden lg:block" href="#"><img src="./images/partner4.png" alt=""> </a>
+        <a class="hidden lg:block" href="#"><img src="./images/partner1.png" alt=""> </a>
+        <a class="hidden xl:block" href="#"><img src="./images/partner2.png" alt=""> </a>
+    </div>
+  </article>
+
+  <footer class="w-full md:pt-24 md:pb-24 pt-10 pb-9 bg-bg-one p-3 lg:px-6 ">
+    <main class="grid md:grid-cols-2 md:gap-5 xl:w-4/5 xl:px-10 w-95% md:pl-5 md:pr-16 mx-auto"> 
+      <aside class="grid md:grid-cols-2 ">
+        <div>
+          <h2 class="xl:text-xl  md:text-lg text-lg  xl:mb-3 md:mb-1 mb-3">Find Us</h2>
+          <p class=" xl:w-85% md:w-full xl:text-base text-sm leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
+          <aside class="flex mt-3  gray">
+            <p class="text-sm mr-3"><i class="fa-solid fa-location-dot"></i></p>
+            <p class="">5021 Franklee Lane, USA</p>
+          </aside>
+          <aside class=" mt-1 icon">
+            <a class="text-sm mr-2 " href="#"><i class="fa-solid fa-phone-volume"></i></a>
+            <a class="a inline-block trans_5 hover:translate-x-1 hover:text-text-primry" href="tel:+267-784-4336">+267-784-4336</a>
+          </aside>
+          <aside class="  mt-1 icon">
+            <a class="text-sm mr-3" href="#"><i class="fa-regular fa-comment-dots"></i></a>
+            <a class="a inline-block trans_5 hover:translate-x-1 hover:text-text-primry" href="#">info@covax.com</a>
+          </aside>
+         </div>
+         <div class="md:ml-20% mt-7 md:mt-0">
+          <h2 class="xl:text-2xl  md:text-lg text-lg xl:mb-3 md:mb-1 mb-3">Quick Links</h2>
+          <ul class=" gray">
+            <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">General information</a></li> 
+            <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Emergency service</a></li>
+            <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Ambulance</a></li> 
+            <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Medical research</a></li> 
+            <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Blood bank service</a></li>  
+            <li  class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Intensive care unit</a></li> 
+          </ul>
+        </div>
+      </aside>
+    <aside  class="grid md:grid-cols-2">
+      <div class="md:ml-auto mt-7 md:mt-0">
+        <h2 class="xl:text-2xl md:text-lg text-lg w-full xl:mb-3 md:mb-1">Join To Our Community</h2>
+        <ul class=" gray">
+          <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Posted on to our blogs</a></li>
+          <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Join to our forum</a></li>
+          <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Meet up with our doctors</a></li> 
+          <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Medical research</a></li> 
+          <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Help center</a></li>
+          <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-base text-sm"><a href="#">Contract with us</a></li> 
+        </ul>
+        </div>
+       <div class="md:ml-auto mt-7 md:mt-0">
+        <h2 class="xl:text-2xl  md:text-lg text-lg xl:mb-3 md:mb-1 mb-3">Open time</h2>
+        <ul>
+          <li class="mb-1 "><p class=" text-sm  md:text-base">Mon-Fri 8:00 AM - 10:00 PM</p> </li>
+          <li class="mb-1"><p class=" text-sm  md:text-base">Sat-Sun 9:00 AM - 6:00 PM</p></li>
+          <li class="mb-1"><p class=" text-sm  md:text-base">Emergency service 24 hours</p></li>
+        </ul>
+        <aside class="mt-5 md:w-full grid grid-cols-4 md:gap-1 w-[50%]">
+          <a class="w-9 h-9 text-base py-8px px-13px text-white bg-[#578a04] rounded-full hover:bg-text-primry trans_5" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a class="w-9 h-9 text-base py-8px px-12px text-white bg-[#9e0469] rounded-full hover:bg-text-primry trans_5" href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a class="w-9 h-9 text-base py-8px px-12px text-white bg-[#aa3202] rounded-full hover:bg-text-primry trans_5" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a class="w-9 h-9 text-base py-8px px-11px text-white bg-[#4d07a8] rounded-full hover:bg-text-primry trans_5" href="#"><i class="fa-brands fa-instagram"></i></a>
+        </aside>
+    </aside>
+   
+     </div>
+    </main>
+  </footer>
+  <article  class=" w-full  flex justify-center">
+  <section class="w-full  bg-footer">
+    <div class="xl:w-95% mx-auto py-6 text-center">
+      <aside class="md:flex xl:ml-40% md:ml-32% xl:w-32% md:w-1/2 mx-auto w-full">
+        <h3 class="text-white">Copyright @2022 Covax. All rights reserved</h3>
+        <p class="ml-1"><a href="https://hibootstrap.com/" class="text-text-primry hover:text-white trans_5">Hibootstrap</a></p>
+      </aside>
+    </div>
+  </section>
+  
+  </article>
+
+
+  <a   href="https://themeforest.net/checkout/from_item/29123542?license=regular&amp;support=bundle_6month&amp;_ga=2.101972547.317761313.1648883762-918236941.1644836235"  class="buy-now-btn"><img class="inline-block w-" src="./images/envato.png" alt="envato">Buy Now</a>
+
+
+  <div  class="nn">
+    <a  href="#"><i id="imag" class="fa-solid fa-circle-up "></i></a> 
+  </div>
+  <script>
+    window.addEventListener('scroll', function(){
+      if(window.scrollY > 100){
+        document.getElementById('imag').style.display ='block';
+      }else{
+        document.getElementById('imag'),style.display ='none';
+      }
+    });
+  </script>
+</body>
+</html>

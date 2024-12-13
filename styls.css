@@ -1,0 +1,407 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 22.5px;
+    background-color: #ffffff;
+    color: #555;
+    overflow-x: hidden;
+    max-width: 1500px;
+    margin: 0 auto  ;
+
+}
+
+h1 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: bold;
+    color: rgb(41, 35, 35);
+}
+
+h2 {
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: bold;
+    color: rgb(41, 35, 35);
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 25.5px;
+    font-weight: bold;
+    color: rgb(41, 35, 35);
+}
+
+/* .lastone::after{
+        content: "";
+        height: 0;
+        width: 0;
+        border-width:0 70px 70px 0;
+        border-style:solid ;
+        border-color: red transparent blue black;
+        position: absolute;
+        right: 0%;
+        top: 2%;
+        box-shadow: -2px 3px 7px #000;
+
+    } */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.hoverlink:hover {
+    color: rgb(59 130 246);
+    letter-spacing: 0.8px;
+  
+}
+.font_weight {
+    font-weight: 500;
+}
+
+/* start class for nav bar */
+
+
+
+.transition0_8 {
+    transition:all  0.5s;
+}
+/* .transition0_8 {
+transition: ease 0.5s;
+} */
+.transition0_4{
+    transition: 0.4s;
+}
+
+.transition0_3 {
+    transition: 0.3s;
+}
+
+.MnueHome:hover .SupMuneHome {
+    animation: TransToUp 0.3s linear forwards;
+    display: block;
+    z-index: 100;
+}
+
+.Mnuepage:hover .SupMunepage {
+    animation: TransToUp 0.4s linear forwards;
+    display: block;
+    z-index: 100;
+}
+
+.MnueUser:hover .SupMuneUser {
+    animation: TransToUp 0.4s linear forwards alternate;
+    display: block;
+    z-index: 100;
+}
+
+.TransToUp {
+    animation: TransToUp 0.8s linear forwards;
+}
+
+@keyframes TransToUp {
+    from {
+        transform: translateY(12px);
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+   
+}
+.boRDERCHHE {
+    border: 2PX solid red;
+}
+
+/* start class for nav bar */
+.AnmCircle {
+    animation: AnmCircle infinite 20s linear;
+}
+
+@keyframes AnmCircle {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* end class for nav bar */
+.AnmImg1 {
+    animation: AnmImg1 1s linear infinite alternate;
+}
+
+.AnmImg2 {
+    animation: AnmImg2 1s linear infinite alternate;
+}
+
+@keyframes AnmImg1 {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(10px);
+    }
+}
+
+@keyframes AnmImg2 {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(5px);
+    }
+}
+.listTrsns:hover{
+   transform: translateX(8px);
+    color: #207ef7;
+}
+.listTrsns:hover .iconhover{
+    transform: translateX(10px);
+}
+
+
+.height {
+    animation: height 0.5s linear alternate;
+}
+
+.height1 {
+    animation: height1 0.3s linear alternate;
+}
+@keyframes height1 {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 80px;
+    }
+}
+
+
+@keyframes height {
+    from {
+        height: 0;
+    }
+
+    to {
+        height: 384px;
+    }
+}
+
+.hovlanguges:hover .languges {
+    animation: TransToUp 0.5s linear forwards alternate;
+    display: block;
+    opacity: 1;
+}
+.parant:hover .child{
+    animation: TransToUp 0.4s linear forwards alternate;
+    display: block;
+  }
+
+.TameHover:hover .Mnue {
+    opacity: 1;
+}
+
+.TameHover:hover .Mnue1 {
+    height: 160px;
+}
+.TameHover:hover .Mnue2 {
+    height: 180px;
+}
+
+.dadbg:hover .bghover {
+    transform: scale(1);
+    opacity: 1;
+}
+.scale_0 {
+    transform: scale(0);
+}
+.rounded1{
+    border-radius:50% 30px 50% 50% ;
+}   
+.shadow1 {
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 10%);
+  }
+
+  .shadow2 {
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 9%);
+  }
+
+  .Circlediv{
+    display: inline-block;
+    margin-right: 10px;
+    width: 40px;
+    height: 40px;
+    background: #555555;
+    text-align: center;
+    border-radius: 50%;
+
+  }
+  .Circlediv:hover{
+    background-color:#207ef7 ;
+  }
+  .color{
+    background-color:#207ef7 ;
+  }
+  .IMGRudius {
+    border-radius: 150px 30px 150px 30px;
+
+  }
+
+  .IMGRudiu1 {
+    border-radius: 100px 20px 100px 20px;
+  }
+
+  .IMGRudiu2 {
+    border-radius: 150px 30px 30px;
+  }
+  .hoveraside:hover .link {
+    background-color: rgb(70, 137, 225);
+    color: white;
+  }
+
+  .hoverh2:hover .hoverdiv {
+    height: 192px;
+  }
+
+  .hoverbtn:hover .p {
+    display: block;
+  }
+
+  /* ----------------------------------------------------------------------------------TeSt */
+  .but1{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    background: #207ef7;
+    text-decoration: none;
+    letter-spacing: 1px;
+    color: #ffffff;
+    overflow: hidden;
+    z-index: 100;
+}
+.but1 span{
+    position: relative;
+    z-index: 1;
+}
+.but1::before
+{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50% ,-50%);
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background:black ;
+    transition: width 1.5s ,height 1.5s;
+}
+
+.but1:hover::before{
+    width: 1100px;
+    height: 1100px;
+}
+
+input::placeholder{
+    color: #555;
+}
+.navhover:hover{
+    color: #207ef7;
+}
+.ul >li{
+    text-align: left;
+ }   
+ .trans:hover{
+ transform: scale(1.1);
+ z-index: 100;
+ }
+ .trans{
+ transition: 0.5s;
+ }
+ 
+ .trans_5{
+ transition: 0.5s;
+ }
+ .back{
+ background-color:rgba(0, 0, 0, 0.76) ;
+ transition: .5s;
+ }
+ .dadbg:hover .bghover{
+ transform: scale(1);
+ opacity: 1;
+ }
+ .trans1{
+ transition: 1s;
+ }
+ .scale_0{
+ transform: scale(0);  
+ }
+ .buy-now-btn{
+    right: 20px;
+    z-index: 99;
+    top: 50%;
+    position: fixed;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    border-radius: 30px;
+    display: inline-block;
+    color: #ffffff;
+    background-color: #82b440;
+    padding: 10px 20px 10px 42px;
+    -webkit-box-shadow: 0 1px 20px 1px #82b440;
+    box-shadow: 0 1px 20px 1px #82b440;
+    font-size: 13px;
+    font-weight: 600;
+}
+.buy-now-btn img {
+    top: 50%;
+    left: 20px;
+    width: 15px;
+    position: absolute;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.nn i {
+    background: #207EF7;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    position:fixed;
+    right: 15px;
+    bottom: 20px;
+    cursor: pointer;
+   display: none;
+   z-index: 999;
+      
+   
+}
+html{
+    scroll-behavior: smooth;
+}

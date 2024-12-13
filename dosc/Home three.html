@@ -1,0 +1,1065 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet">
+  <!-- fonts -->
+  <link rel="stylesheet" href="./style/all.min.css">
+  <link rel="stylesheet" href="./style/tailwindcss.css">
+</head>
+<body class="mx-auto">
+ 
+
+        <style>
+          *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+          }
+            .trans{
+          transition: .5s;
+        }
+        .hoveraside:hover .link {
+            background-color: rgb(70, 137, 225);
+            color: white;
+            }
+            .link:hover{
+              background-color: black;
+            }
+            .hoverh2:hover .hoverdiv{
+              height: 192px;
+            }
+            .hoverbtn:hover .p{
+             display: block;
+            }
+           
+      
+             
+            
+            .containers{
+              width: 80%;
+            }
+            .gray{
+              color: rgb(85, 85, 85);
+            }
+           #section1{
+            background-image: url(images/banner-5.jpg);
+    
+            background-repeat:no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            position: relative;
+
+          }
+          #section1::after{
+            content: "  ";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.6;
+            background-color: #fff;
+            
+          }
+           @media screen and (max-width: 480px){
+            #section1{
+              background-image: url(images/banner-5.jpg);
+              background-repeat:no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            position: relative;
+            }
+           }
+           #divgradient1{
+            background: rgb(32,126,247);
+            background: linear-gradient(90deg, rgba(32,126,247,1) 85%, rgba(100,96,96,1) 85%);
+           }
+            #divgradient2{
+            background: rgb(32,126,247);
+            background: linear-gradient(90deg, rgba(32,126,247,1) 75%, rgba(100,96,96,1) 75%);
+           }
+            #divgradient3{
+            background: rgb(32,126,247);
+            background: linear-gradient(90deg, rgba(32,126,247,1) 78%, rgba(100,96,96,1) 78%);
+           }
+            #divgradient4{
+            background: rgb(32,126,247);
+            background: linear-gradient(90deg, rgba(32,126,247,1) 66%, rgba(100,96,96,1) 66%);
+           }
+            #divgradient5{
+            background: rgb(32,126,247);
+            background: linear-gradient(90deg, rgba(32,126,247,1) 77%, rgba(100,96,96,1) 77%);
+           }
+           #div1:hover{
+          opacity: 1;
+    }
+    .trans:hover{
+      transform: scale(1.1);
+      z-index: 100;
+    }
+    .trans{
+      transition: 0.5s;
+    }
+    
+    .trans_5{
+      transition: 0.5s;
+    }
+    .back{
+      background-color:rgba(0, 0, 0, 0.76) ;
+      transition: .5s;
+    }
+    .dadbg:hover .bghover{
+      transform: scale(1);
+      opacity: 1;
+    }
+    .trans1{
+      transition: .5s;
+    }
+    .scale_0{
+      transform: scale(0);
+    }
+    #section2{
+      background-image: url(images/appointment-bg.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      position: relative;
+    }
+    #section2::after{
+            content: "  ";
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            opacity: 0.6;
+            background-color:rgb(33, 37, 41);
+    }
+    .icon:hover .a{
+      color: rgb(27, 95, 220);
+      transform: translateX(5px);
+    }
+    #sectionform{
+      position: relative;
+    }
+    #sectionform::after{
+      content: " ";
+      position: absolute;
+      display: block;
+      height: 5px;
+      margin-top: -4px;
+      pointer-events: none;
+      right: 20px;
+      top: 24px;
+      transform: matrix(0.707107,707107,-707107,0.7);
+      transform: rotate(45deg);
+      transform-origin: 3.3px 3.3px;
+      width: 5px;
+    }
+        
+        </style>
+         <article class=" fixed flex justify-center items-center z h-14 xl:h-24  left-0 right-0 top-0 mx-auto bg-white shadow2 z-50 ">
+          <nav class="  w-90% xl:w-4/5 mx-auto flex justify-between items-center  font-medium border-none">
+        
+            <div class="logo  xl:pl-6">
+              <img src="./images/logo.png" alt="">
+            </div>
+        
+            <ul class="  w-75% ul text-right hidden xl:block  text-navcolor ">
+        
+              <li class="inline-block mx-2 pb-6 hovlanguges "> <a class="" href="./Home One.html">Home <i
+                    class="fa-solid fa-chevron-down text-xs  font-semibold  text-navcolor  "></i>
+                  </a>
+                  <ul class="  languges absolute transition0_8 bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 ">
+                    <li class="hoverlink transition0_4  mb-3"> <a  href="./Home One.html"> Home One</a></li>
+                    <li class="hoverlink transition0_4 mb-3"> <a   href="./Home Two.html  "> Home Two</a></li>
+                    <li class="hoverlink transition0_4 mb-3"> <a   href="./Home three.html"> Home Three</a></li>
+                  </ul>
+        
+        
+                
+              </li>
+        
+        
+              <li class="inline-block mx-2  pb-6 hovlanguges">
+                <a href="">
+                  Pages <i class="fa-solid fa-chevron-down text-xs  font-semibold text-navcolor  "></i>
+                </a>
+        
+                <ul class=" languges absolute bg-white p-5 w-60  top-70px shadow-lg shadow1   hidden opacity-0">
+                  <li class="hoverlink transition0_4  mb-3">
+                    <a href="./About.html">
+                      About
+                    </a>
+                  </li>
+        
+                  <li class="hoverlink transition0_4   mb-3">
+                    <a href="./Team.html">
+                      Team
+                    </a>
+                  </li>
+        
+                  <li class="hoverlink transition0_4  mb-3">
+                    <a href="faq.html">
+                      FAQ
+                    </a>
+                  </li>
+        
+                  <li class="hoverlink transition0_4  mb-3">
+                    <a href="gallery.html">
+                      Gallery
+                    </a>
+                  </li>
+                  <li class="hoverlink transition0_4  mb-3">
+                  <li class="hoverlink  transition0_4 mb-3">
+                    <a href="testimonials.html">
+                      Testimonials
+                    </a>
+                  </li>
+                  <!-- User Mune -->
+        
+                  <li class=" parant  mb-3 bl-1 ">
+                    <a href="#" class=" hoverlink  transition0_4">
+                      User
+                      <img class="inline-block float-right align-baseline" src="./images/svgexport-1.png" alt="">
+                    </a>
+        
+        
+                    <ul
+                      class=" child  absolute bg-white p-3 w-[109%]  top-1/2 -mt-30px -left-255px shadow-lg shadow2 hidden opacity-0">
+                      <li class=" hoverlink  transition0_4  mb-3">
+                        <a href="sign-in.html">
+                          Sign In
+                        </a>
+                      </li>
+                      <li class="hoverlink transition0_4  mb-3">
+                        <a href="sign-up.html">
+                          Sign Up
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="hoverlink transition0_4  mb-3">
+                    <a href="terms-condition.html">
+                      Terms &amp; Conditions
+                    </a>
+                  </li>
+                  <li class="hoverlink transition0_4  mb-3">
+                    <a href="privacy-policy.html">
+                      Privacy Policy
+                    </a>
+                  </li>
+                  <li class="hoverlink  transition0_4 mb-3">
+                    <a href="error-404.html">
+                      Error Page
+                    </a>
+                  </li>
+                  <li class="hoverlink transition0_4  mb-3">
+                    <a href="contact.html">
+                      Contact
+                    </a>
+                  </li>
+                </ul>
+              </li>
+        
+        
+              <li class="inline-block mx-2 pb-6 hovlanguges"> <a href="">Services <i
+                    class="fa-solid fa-chevron-down text-xs  font-semibold text-navcolor  "></i> </a>
+        
+                <ul class="  languges absolute bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 ">
+                  <li class="hoverlink transition0_4  mb-3"> <a href=""> Services</a></li>
+                  <li class="hoverlink transition0_4 mb-3"> <a href=""> Services Details</a></li>
+                </ul>
+              </li>
+        
+        
+              <li class="inline-block mx-2 pb-6 hovlanguges"> <a href="">Our Doctors <i
+                    class="fa-solid fa-chevron-down text-xs  font-semibold text-navcolor  "></i> </a>
+        
+                <ul class="  languges absolute bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 ">
+                  <li class="hoverlink transition0_4  mb-3"> <a href="./Doctors.html"> Doctors</a></li>
+                  <li class="hoverlink transition0_4 mb-3"> <a href="./Doctors Details.html"> Doctors Details</a></li>
+                </ul>
+        
+              </li>
+        
+              <li class="inline-block mx-2 hovlanguges pb-6"> <a class="" href="">Blog <i
+                    class="fa-solid fa-chevron-down text-xs  font-semibold text-navcolor  "></i> </a>
+        
+                <ul class="  languges absolute bg-white p-5 w-64 top-70px shadow-lg shadow1 hidden opacity-0 ">
+                  <li class="hoverlink transition0_4  mb-3"> <a href=""> Blog</a></li>
+                  <li class="hoverlink transition0_4 mb-3"> <a href=""> Blog Details</a></li>
+                </ul>
+        
+              </li>
+        
+              <li class="inline-block mx-2"> <a href="">Appoinments</a> </li>
+        
+        
+              <li id="languge" class="inline-block mx-2   relative hovlanguges ">
+                <a class="   hover:active:text-text-primry py-6 text-navcolor font-medium align-bottom mt-2  ">
+                  Language <i class="fa-solid fa-chevron-down text-xs  font-semibold text-navcolor  "></i>
+                </a>
+                <div id="suplanguge" class=" languges  absolute w-52 top-10 hidden opacity-0 shadow-lg shadow1 ">
+                  <ul class="   p-5   bg-white  ">
+                    <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/english.png"
+                        alt=""> <a class="inline-block" href="#"> English</a></li>
+                    <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/arab.png" alt="">
+                      <a href="#"> العربية</a>
+                    </li>
+                    <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/germany.png"
+                        alt=""> <a href="#"> Deutsch</a> </li>
+                    <li class="hover:text-blue-600 mb-3"><img class=" inline-block w-5 mr-2" src="./images/portugal.png"
+                        alt=""> <a href="#"> 󠁥Português</a> </li>
+                    <li class="hover:text-blue-600"><img class=" inline-block w-5 mr-2" src="./images/china.png" alt=""><a
+                        href="#"> 简体中文</a> </li>
+                  </ul>
+        
+        
+                
+                </div>
+              </li>
+        
+              <li class="inline-block ml-4">
+        
+                
+                <button style="padding:12px 24px ;" class=" bg-text-primry   transition0_8 text-white but1  rounded-md">
+                  <a   href=""> <span>Contacts Us</span> </a>
+                </button>
+                <script>
+                  const but = document.querySelector('.but1');
+                  but.onmousemove = function(e){
+                      const x = e.pageX - but.offsetLeft;
+                      const y = e.pageY - but.offsetTop;
+                     
+                      but.style.setProperty('--x' , x + 'px');
+                      but.style.setProperty('--y' , y + 'px');
+                  }   
+              </script>
+              </li>
+        
+            </ul>
+        
+            <!-- mycomment -->
+            <!---------------------------------------------------------phon secren------------------------------------------------------>
+        <!-- Button -->
+            <div class=" xl:hidden flex items-center relative">
+              <button id="navicon">
+                  <svg class=" w-12 h-12 text-blue-500  " x-show="!showMenu" fill="none"
+                      stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 28 28"
+                      stroke="currentColor">
+                      <path d="M4 6h16M4 12h16M4 18h16"></path>
+                  </svg>
+              </button>
+          </div>
+        
+        <!--  Mnue -->
+          <div id="mobilemenu" class="hidden absolute w-90% mx-auto  left-0 right-0 top-20 xl:top-28 z-50 height shadow2 shadow-lg   ">
+              <ul
+                  class="  bg-white w-full text-left pl-5  h-96 text-[13px] font-normal text-defaultcolor overflow-auto height ">
+        
+                  <li id="Home" >
+                    <a href="#" class=" relative flex  p-4  border-b-2 text-blue-600 transition0_8  border-blue-50 ">
+                       Home<i id="plus" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+                   </a>
+                    
+        
+                    <ul id="SupHome" class=" hidden pl-10  transition0_8  ">
+                      <li class=" block p-4  border-b-2  transition0_8  border-blue-50"> <a  href="./Home One.html"> Home One</a></li>
+                      <li class=" block p-4  border-b-2  transition0_8  border-blue-50"> <a   href="./Home Two.html  "> Home two</a></li>
+                      <li class=" block p-4  border-b-2  transition0_8  border-blue-50"> <a   href=""> Home Three</a></li>
+                    
+                    <script>
+                            const btn = document.getElementById('navicon')
+                            const menu = document.getElementById('mobilemenu')
+                        const Home = document.getElementById('Home')
+                        const SupHome = document.getElementById('SupHome')
+                        const plus = document.getElementById('plus')
+                    
+                        btn.addEventListener('click', () => {
+                    
+                            menu.classList.toggle('hidden');
+                        });
+        
+                        Home.addEventListener('click', () => {
+                          SupHome.classList.toggle('hidden')
+                          plus.classList.toggle('fa-plus');
+                    });
+                    </script>
+                   
+                    </ul>
+                  </li>
+                 
+                 
+                  <li  id="page">
+                    <a href="#" class= "p-4 flex   relative  border-b-2 border-blue-50 ">
+                      Pages<i id="plus1" class="fa-solid fa-plus fa-minus  ml-auto inline-block text-defaultcolor  "> </i>
+                    </a>
+        
+                    <ul id="SupPage" class=" hidden  pl-10">
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="./About.html">
+                          About
+                        </a>
+                      </li>
+            
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="./Team.html">
+                          Team
+                        </a>
+                      </li>
+            
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="faq.html">
+                          FAQ
+                        </a>
+                      </li>
+            
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="gallery.html">
+                          Gallery
+                        </a>
+                      </li>
+                      <li class="hblock p-4  border-b-2  transition0_8  border-blue-50">
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="testimonials.html">
+                          Testimonials
+                        </a>
+                      </li>
+                      <!-- User Mune -->
+            
+                      <li class=" parant block p-4  border-b-2  transition0_8  border-blue-50 ">
+                        <a href="#" class=" hoverlink  transition0_4">
+                          User
+                          <img class="inline-block float-right align-baseline" src="./images/svgexport-1.png" alt="">
+                        </a>
+            
+            
+                        <ul
+                          class=" child  absolute bg-white p-3 w-[109%]  top-1/2 -mt-30px -left-255px shadow-lg shadow2 hidden opacity-0">
+                          <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                            <a href="sign-in.html">
+                              Sign In
+                            </a>
+                          </li>
+                          <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                            <a href="sign-up.html">
+                              Sign Up
+                            </a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="terms-condition.html">
+                          Terms &amp; Conditions
+                        </a>
+                      </li>
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="privacy-policy.html">
+                          Privacy Policy
+                        </a>
+                      </li>
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="error-404.html">
+                          Error Page
+                        </a>
+                      </li>
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50">
+                        <a href="contact.html">
+                          Contact
+                        </a>
+                      </li>
+                    </ul>
+                  
+                    <script>
+                     
+                      const page = document.getElementById('page')
+                      const SupPage = document.getElementById('SupPage')
+                      const plus1 = document.getElementById('plus1')
+                  
+                      page.addEventListener('click', () => {
+                  
+                        SupPage.classList.toggle('hidden');
+                        plus1.classList.toggle('fa-plus');
+                  });
+                  </script>
+                  
+                  
+                  
+                  
+                  </li>
+                 
+                 
+                  <li id="Services">
+                    <a href="#" class="flex p-4 border-b-2 border-blue-50 hoverlink transition0_4">
+                      Services<i id="plus2" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+                    </a>
+                  
+                     <ul id="SupServices" class="  pl-10 hidden ">
+                        <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a href=""> Services</a></li>
+                        <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a href=""> Services Details</a></li>
+                     </ul>
+                     <script>
+                     
+                      const Services = document.getElementById('Services')
+                      const SupServices = document.getElementById('SupServices')
+                      const plus2 = document.getElementById('plus2')
+                  
+                      Services.addEventListener('click', () => {
+                  
+                        SupServices.classList.toggle('hidden');
+                        plus2.classList.toggle('fa-plus');
+                  });
+                  </script>
+                  
+                  </li>
+        
+        
+                  <li id="Doctors">
+                      <a href="#" class="flex p-4 border-b-2 border-blue-50 hoverlink transition0_4">
+                        Doctors<i id="plus3" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+                      </a>
+        
+                      <ul id="SupDoctors" class="  hidden pl-10 ">
+                        <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a href="./Doctors.html"> Doctors</a></li>
+                        <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a href="./Doctors Details.html"> Doctors Details</a></li>
+                      </ul>
+                      <script>
+                     
+                        const Doctors = document.getElementById('Doctors')
+                        const SupDoctors = document.getElementById('SupDoctors')
+                        const plus3 = document.getElementById('plus3')
+                    
+                        Doctors.addEventListener('click', () => {
+                    
+                          SupDoctors.classList.toggle('hidden');
+                          plus3.classList.toggle('fa-plus');
+                    });
+                    </script>
+                  </li>
+        
+        
+                  <li id="Blog">
+                     <a href="#" class="flex p-4 border-b-2 border-blue-50 hoverlink transition0_4">
+                        Blog<i id="plus4" class="fa-solid fa-plus fa-minus ml-auto inline-block text-defaultcolor  "> </i>
+                    </a>
+        
+                    <ul id="SupBlog" class="   hidden pl-10 ">
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a href=""> Blog</a></li>
+                      <li class="block p-4  border-b-2  transition0_8  border-blue-50"> <a href=""> Blog Details</a></li>
+                    </ul>
+        
+                    <script>
+                     
+                      const Blog = document.getElementById('Blog')
+                      const SupBlog = document.getElementById('SupBlog')
+                      const plus4 = document.getElementById('plus4')
+                  
+                      Blog.addEventListener('click', () => {
+                  
+                        SupBlog.classList.toggle('hidden');
+                        plus4.classList.toggle('fa-plus');
+                  });
+                  </script>
+        
+        
+        
+                </li>
+                  <li> <a class=" block p-4  border-b-2 border-blue-50 hover:text-blue-600 transition0_8 mr-8  "
+                          href="#">Appoinments</a></li>
+                  <li class=" block p-4 ">
+                      <div class="  W-1/4    ">
+        
+                          <button
+                              class=" bg-[#207ef7] hover:bg-black transition0_8 text-white px-6 py-[10px]   rounded-lg">
+                              <a href=""> Contacts Us</a></button>
+                      </div>
+                  </li>
+              </ul>
+        
+        
+            
+        
+            
+          </div>
+            <!---------------------------------------------------------phon secren------------------------------------------------------>
+        
+          </nav>
+        </article>  
+        <div class="h-24"></div>
+       <section id="section1" class=" w-full h-screen flex items-center justify-start   ">
+        <div class="w-4/5 mx-auto flex items-center justify-start">
+          <div  class=" w-55%  relative z-30 ">
+            <p class="mb-4 ">Explore us all</p>
+            <h1 class=" lg:text-[50px] xl:text-[72px] text-[#292323] font-bold lg:leading-[60px] xl:leading-[80px] mb-7">Connect and get our full dental support</h1>
+            <h3 class="xl:mb-12 mb-10 xl:w-95% w-full font-normal gray">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</h3>
+            <button style="padding: 14px 24px;" class="but1  "  href="" class=" ">
+              <a > <span>Get An Appoinment </span> </a>
+            </button>
+          
+            <script>
+              const but = document.querySelector('.but1');
+              but.onmousemove = function(e){
+                  const x = e.pageX - but.offsetLeft;
+                  const y = e.pageY - but.offsetTop;
+                 
+                  but.style.setProperty('--x' , x + 'px');
+                  but.style.setProperty('--y' , y + 'px');
+              }   
+          </script>
+
+          </div>
+        
+        </div>
+      
+        </section>
+        <section class="w-95% xl:w-4/5 md:px-6 mx-auto pt-16">
+
+
+          <div class="text-center">
+            <p class="mb-2 text-xs md:text-default ">Reason to choose</p>
+            <h2 class="md:text-h2text md:leading-10 font_wieght my-4">Why you choose us</h2>
+            <div class="h-[2px] bg-black w-115px mt-6 mx-auto "></div>
+          </div>
+
+
+          <div class="md:grid md:grid-cols-3 md:gap-6 xl:gap-0 mt-5">
+          <aside class=" mt-8 px-9 py-8 border border-sky-600  text-center hoveraside  hover:shadow-2xl trans1 hover:shadow-gray-300 hover:border-transparent ">
+            <h1 class="text-blue-500 text-50 md:text-70 mb-5 xl:mb-3"><i class="fa-regular fa-user"></i></h1>
+            <h3 class=" mb-2  md:text-h3text ">Qualified doctors</h3>
+            <p class=" mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+            <a href="#" class="py-4 px-6 border-[1px] border-sky-400 text-sm hover:bg-sky-600 hover:text-white link">Read More</a>
+          </aside>
+            <aside class=" mt-8 border-[1px] border-sky-600 pt-7 px-5 text-center pb-10 hoveraside xl:w-[95%] xl:ml-[3%] hover:shadow-2xl hover:shadow-gray-300 hover:border-white trans1">
+              <h1 class="text-blue-500 text-[50px] md:text-[70px] mb-5 xl:mb-3"><i class="fa-solid fa-brain"></i></h1>
+              <h2 class=" mb-2 text-h3text">Modern equipment</h2>
+              <p class=" mb-8 md:text-default17">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+              <a href="#" class="py-4 px-6 border-[1px] border-sky-400 text-sm hover:bg-sky-600 hover:text-white link">Read More</a>
+            </aside>
+            <aside class=" mt-8 border border-sky-600 pt-7 px-5 text-center pb-10 hoveraside xl:w-[95%] xl:ml-auto hover:shadow-2xl hover:shadow-gray-300 hover:border-white trans1">
+              <h1 class="text-blue-500 text-[50px] md:text-[70px] mb-5 xl:mb-3"><i class="fa-solid fa-droplet"></i></h1>
+              <h2 class=" mb-2 xl:mt-5 md:text-[22px]">Frequently support
+              </h2>
+              <h3 class="gray mb-8">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</h3>
+              <a href="#" class="py-4 px-6 border-[1px] border-sky-400 text-sm hover:bg-sky-600 hover:text-white link">Read More</a>
+            </aside>
+            </div>
+        </section>
+        <section class="xl:pt-20 pt-12 md:grid md:grid-cols-2 md:pb-32">
+          <main class="xl:w-[100%] w-[97%] ml-auto pl-7 md:pt-3 xl:pt-0 relative">
+            <div class="xl:w-[90%] md:w-[95%] w-full relative">
+              <img class="w-full" src="images/experience.jpg">
+            </div>
+            <div class="xl:w-[85%] md:w-[90%] w-[95%] md:border-[20px] border-[13px] absolute top-10 border-blue-500 xl:py-[43%] md:py-[45%] py-[44%] xl:-left-4 md:-left-4 -left-1 -z-50"></div>
+          </main>
+          <main class="xl:pt-16 w-[95%] mx-auto  md:ml-2 xl:w-[100%] xl:pr-[7%]">
+            <div class=" md:w-[90%] xl:w-full">
+            <h3 class="text-[15px]  mb-2">16+ years of experience</h3>
+            <h2 class="mb-5 ">Welcome to Covax dental unit</h2>
+            <h3 class="gray w-[95%] md:w-full">We are one of the best agency and have a 16+ years working exp. into the global market. mCare makes your tooth care in a proper way with the most effective way. We have brilliant history.</h3>
+          </div>
+          <div>
+            <aside class="mt-3">
+              <div class="flex mb-1">
+                <h3 class="gray">Dental tease</h3>
+                <h3 class="ml-[65%] gray xl:ml-[76%]">85%</h3>
+              </div>
+             <div id="divgradient1" class="w-[95%] py-[2px] rounded-3xl"></div>
+            </aside>
+            <aside class="mt-5">
+              <div class="flex mb-1">
+                <h3 class="gray">Root cannel</h3>
+                <h3 class="ml-[65%] gray xl:ml-[77%]">75%</h3>
+              </div>
+             <div id="divgradient2" class="w-[95%] py-[2px] rounded-3xl"></div>
+            </aside>
+            <aside class="mt-5">
+              <div class="flex mb-1">
+                <h3 class="gray">Tooth</h3>
+                <h3 class="ml-[76%] gray xl:ml-[84%]">78%</h3>
+              </div>
+             <div id="divgradient3" class="w-[95%] py-[2px] rounded-3xl"></div>
+            </aside>
+            <aside class="mt-5">
+              <div class="flex mb-1">
+                <h3 class="gray">Feeling</h3>
+                <h3 class="ml-[73%] gray xl:ml-[82%]">66%</h3>
+              </div>
+             <div id="divgradient4" class="w-[95%] py-[2px] rounded-3xl"></div>
+            </aside>
+            <aside class="mt-5 mb-10">
+              <div class="flex mb-1">
+                <h3 class="gray">Childern</h3>
+                <h3 class="ml-[72%] gray xl:ml-[81%]">77%</h3>
+              </div>
+             <div id="divgradient5" class="w-[95%] py-[2px] rounded-3xl"></div>
+            </aside>
+          </div> <a class="xl:ml-0 xl:py-[14px] xl:px-7  bg-sky-600 ml-0 py-4 px-6  text-sm xl:text-[15px] text-white hover:bg-black font-semibold " href="#">Read More</a>
+          </main>
+        </section>
+        <section class="w-[100%] xl:w-[100%] pt-16 md:pt-24 pb-24 bg-[#f6f4ff] xl:mt-20">
+         <div class="text-center md:mb-8">
+            <p class="mb-3 text-[15px] ">Services</p>
+            <h2 class="">Our dental services</h2>
+            <div class="h-[2px] bg-black w-[35%] xl:w-[10%] md:w-[13%] mt-6 mx-auto "></div>
+          </div>
+          <div class="md:grid md:grid-cols-3 xl:gap-0 md:gap-2 xl:w-[90%] md:w-full md:px-6 mx-auto w-[95%]">
+            <aside  class=" hoveraside w-[95%] mx-auto mt-5 hoveraside bg-white  hover:bg-white hover:shadow-xl hover:shadow-slate-200  xl:w-[95%] ">
+              <main class=""><a><img src="images/service-1.jpg"></a></main>
+              <main class="pl-8 pr-8 pt-5 pb-10 xl:pb-7 text-center">
+                  <h2 class=" text-center inline xl:text-left  text-[23px] font-semibold text-neutral-800">Root Cannal</h2>
+                  <p class="text-[rgb(85,85,85)] text-center xl:text-left  font-normal mt-3 mb-8 w-[100%]">Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                  <a class="xl:ml-0 xl:py-[14px] xl:mx-auto border-[1px]  border-sky-600 xl:px-6 link  py-3 px-6  text-sm xl:text-[14px] text-black font-normal" href="#">Read More</a></p>
+              </main>
+            </aside>
+            <aside  class=" hoveraside w-[95%] mx-auto mt-5 hoveraside bg-white  hover:bg-white  hover:shadow-xl hover:shadow-slate-200 xl:w-[95%] xl:ml-[4%]">
+              <main class=""><a><img src="images/service-2.jpg"></a></main>
+              <main class="pl-8 pr-8 pt-5 pb-10 xl:pb-7 text-center">
+                  <h2 class=" text-center inline xl:text-left  text-[23px] font-semibold text-neutral-800">General dentistry</h2>
+                  <p class="text-[rgb(85,85,85)] text-center xl:text-left  font-normal mt-3 mb-8 w-[100%]">Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>
+                  <a class="xl:ml-0 xl:py-[14px] xl:mx-auto border-[1px]  border-sky-600 xl:px-6 link  py-3 px-6  text-sm xl:text-[14px] text-black font-normal" href="#">Read More</a></p>
+              </main>
+            </aside>
+            <aside  class=" hoveraside w-[95%] mx-auto mt-5 hoveraside bg-white  hover:bg-white  hover:shadow-xl hover:shadow-slate-200  xl:w-[95%] xl:mr-0">
+              <main class=""><a><img src="images/service-3.jpg"></a></main>
+              <main class="pl-8 pr-8 pt-5 pb-10 xl:pb-12 text-center ">
+                <h2 class="  inline text-[23px] font-semibold text-neutral-800">Laproraty Test</h2>
+                <p class="text-[rgb(85,85,85)] text-center xl:text-left  font-normal mt-3 mb-8 w-[100%]">Lorem ipsum dolor sit amet,consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna</p>                  <a class="xl:ml-0 xl:py-[14px] xl:mx-auto border-[1px] border-sky-600 xl:px-6 link  py-3 px-6  text-sm xl:text-[14px] text-black font-normal" href="#">Read More</a>
+              </main>
+            </aside>
+           </div> 
+        </section>
+        <section class="md:grid md:grid-cols-2 md:pt-24">
+          <div class="w-[95%] xl:w-[89%] mx-auto xl:ml-16 md:ml-10 xl:pt-36 pt-16 mb-[10%]">
+            <h3>Quick appointment </h3>
+            <h2 class="mt-5">Let's make an appointment easily</h2>
+            <h3 class="gray xl:w-full mt-5 mb-10">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h3>
+           <a class="xl:ml-0 xl:py-[14px] xl:px-6  bg-sky-600 ml-0 py-4 px-6  text-sm xl:text-[15px] text-white hover:bg-black font-normal " href="#">Read More</a>
+          </div>
+          <div class="xl:w-[90%] md:w-full md:px-12 w-[95%] mx-auto xl:mr-0">
+            <img class="w-full" src="images/appointment-1.jpg">
+          </div>
+        </section>
+        <section class="xl:pt-24 pt-14 xl:pb-14">
+          <div class="text-center xl:mb-8  ">
+            <p class="mb-2 xl:text-[15px] ">Instagram</p>
+            <h2 class="">Our instagram phots</h2> 
+            <div class="h-[2px] bg-black w-[35%] xl:w-[10%] md:w-[13%] mt-6 mx-auto "></div>
+          </div>
+          <div>
+            <ul class="flex mx-auto gray justify-between xl:w-[30%] md:w-[45%] w-[70%] text-base mt-7">
+              <li class=" border-b-2 border-transparent  hover:border-b-2 hover:border-b-blue-600 pb-2 ">Post</li>
+              <li class=" border-b-2 border-transparent  hover:border-b-2 hover:border-b-blue-600 pb-2 ">lgtv</li>
+              <li class=" border-b-2 border-transparent  hover:border-b-2 hover:border-b-blue-600 pb-2 ">Saved</li>
+              <li class=" border-b-2 border-transparent  hover:border-b-2 hover:border-b-blue-600 pb-2 ">Tagged</li>
+            </ul>
+            <div class="xl:w-[80%] md:w-[92%] bg-zinc-200 h-[0.5px] mx-auto"></div>
+          </div>
+          <div class="xl:w-[95%] mx-auto p-3 md:px-10 xl:mt-7">
+            <div class=" grid grid-cols-1 md:grid-cols-3 gap-7 text-center md:text-left">
+                <div class=" relative  dadbg ">
+                    <img class=" " src="images/instragram-1.jpg" alt="">
+                    <div
+                        class=" bghover absolute w-full h-full flex items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans ">
+                        <a href="#"> <i class="fa-brands fa-instagram rounded-full p-5 text-5xl  text-white hover:text-blue-600 "></i></a>
+                    </div>
+                </div>    
+                <div class=" relative dadbg ">
+                    <img class=" " src="images/instragram-2.jpg" alt="">
+                    <div
+                        class=" bghover absolute w-full h-full flex items-center justify-center bg-[#0606069e] top-0 left-0 opacity-0  scale_0 trans ">
+                        <a href="#"> <i class="fa-brands fa-instagram rounded-full p-5 text-5xl  text-white hover:text-blue-600 "></i></a>
+                    </div>
+                </div>  
+                <div class=" relative dadbg ">
+                    <img class=" " src="images/instragram-3.jpg" alt="">
+                    <div
+                        class=" bghover absolute w-full h-full flex items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans  ">
+                        <a href="#"> <i class="fa-brands fa-instagram rounded-full p-5 text-5xl  text-white hover:text-blue-600 "></i></a>
+                    </div>
+                </div>  
+                <div class=" relative  dadbg ">
+                    <img class=" " src="images/instragram-4.jpg" alt="">
+                    <div
+                        class=" bghover absolute w-full h-full flex items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans  ">
+                        <a href="#"> <i class="fa-brands fa-instagram rounded-full p-5 text-5xl  text-white hover:text-blue-600 "></i></a>
+                    </div>
+                </div>  
+                <div class=" relative  dadbg ">
+                    <img class=" " src="images/instragram-5.jpg" alt="">
+                    <div
+                        class=" bghover absolute w-full h-full flex items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans  ">
+                        <a href="#"> <i class="fa-brands fa-instagram rounded-full p-5 text-5xl  text-white hover:text-blue-600 "></i></a>
+                    </div>
+                </div>      
+                <div class=" relative  dadbg ">
+                    <img class=" " src="images/instragram-6.jpg" alt="">
+                    <div
+                        class=" bghover absolute w-full h-full flex items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans ">
+                        <a href="#"> <i class="fa-brands fa-instagram rounded-full p-5 text-5xl  text-white hover:text-blue-600 "></i></a>
+                    </div>
+                </div>
+        </section>
+        <section id="section2" class="w-full xl:py-24 ">
+         <main class="xl:w-[90%] xl:mx-auto w-full grid grid-cols-1 xl:grid-cols-2 gap-6 relative z-30 xl:mt-10">
+          <div class="relative">
+           <img class="w-full" src="images/appointment-4.jpg">
+           <div class="border-cyan-200 border-[20px] w-full absolute xl:py-[59%] xl:-top-10 xl:-left-14 rounded-[15%] -z-50 xl:px-64"></div>
+          </div>
+          <div class="bg-white">
+            <aside>
+              <p></p>
+              <h2></h2>
+              <p></p>
+            </aside>
+            <aside class="mt-10">
+              
+                <form class="mb-7 xl:grid xl:grid-cols-2 ">
+                  <div class=" w-[98%] xl:w-[90%] xl:mt-12 mx-auto">
+                    <input class=" outline-none py-3 px-5 w-full  border-sky-500 border-[1px] bg-white hover:bg-blue-50" type="text" placeholder="Enter your name"></div>
+                  <div class="  w-[98%] xl:w-[90%]  xl:mt-12 mx-auto mt-8">
+                    <input class=" outline-none  py-3 px-5 w-full border-sky-500 border-[1px] bg-white hover:bg-blue-50" type="number" placeholder="Enter your number"></div>
+                    <div class=" w-[98%] xl:w-[90%] mx-auto mt-8">
+                      <input class=" outline-none  py-3 px-5 w-full border-sky-500 border-[1px] bg-white hover:bg-blue-50" type="email" placeholder="Enter email"></div>
+                  <div class="  w-[98%] xl:w-[90%] mx-auto mt-8">
+                    <input class=" outline-none  py-3 px-5 w-full border-sky-500 border-[1px] bg-white hover:bg-blue-50" type="date" placeholder="10/11/2004"> </div>
+                    <div class="  w-[98%] xl:w-[90%] mx-auto mt-8 ">
+                      <select required class="outline-none sectionform py-3 px-5 w-full border-sky-500 border-[1px]  hover:bg-blue-50">
+                        <option value="-1" selected class="text-zinc-300">Select the time</option>
+                        <option value="0" >9:00 Am</option>
+                        <option value="1">10:00 Am</option>
+                        <option value="2">11:00 Am</option>
+                        <option value="3">12:00 Pm</option>
+                      </select>
+                    </div>
+                    <div class="  w-[98%] xl:w-[90%] mx-auto mt-8 ">
+                      <select required class="outline-none sectionform py-3 px-5 w-full border-sky-500 border-[1px] hover:bg-blue-50">
+                        <option value="-1" selected class="text-zinc-300">Select the disease</option>
+                        <option value="0" ><li data-value="Alex terrel" class="option">Alex terrel</li></option>
+                        <option value="1"><li data-value="Allen fischer" class="option">Allen fischer</li></option>
+                        <option value="2"><li data-value="Michél anderson" class="option">Michél anderson</li></option>
+                        <option value="3"><li data-value="Carlie addis" class="option">Carlie addis</li></option>
+                    </div>
+                 </form>
+                <a href="#" class="block w-[98%] mx-auto px-5 py-3 bg-blue-500 rounded-full text-center text-white hover:bg-black trans" >Confirm an appointment </a>
+                </aside>
+          </div>
+         </main>
+        </section>
+        <section class="pt-14 xl:pt-24 w-full px-3 xl:w-[90%] md:w-full md:px-6 mx-auto md:pb-32 pb-10">
+          <div class="text-center xl:mb-20 mb-20">
+            <p class="mb-2 md:text-[15px] text-[13px]">Testimonials</p>
+            <h2 class="">See all of our clients says</h2> 
+            <div class="h-[2px] bg-black w-[35%] md:w-[12%] xl:w-[10%]  mt-6 mx-auto"></div>
+          </div>
+          <div class="grid grid-cols-1  md:grid-cols-3 gap-5 ">
+            <aside class="relative border-[1px] border-blue-600 text-center pt-[25%] pb-5 px-5">
+              <div class="rounded-full w-[28%] md:w-[32%] xl:w-[28%] absolute -top-12 md:-top-14 xl:-top-12 md:left-28 xl:left-32 right-auto left-32 ">
+                <img class="w-full rounded-full" src="images/doctor-10.jpg">
+              </div>
+             <h3 class="text-[30px] text-sky-600 mb-1"><i class="fa-solid fa-quote-left"></i></h3> 
+             <p class="italic gray text-[15px] mb-3">This is one of the awesome agency and this will help us to make a good image &amp; this is really effective for us.</p>
+             <h3 class="text-[20px] font-semibold mb-2">Dawn Smith</h3>
+             <span class="gray ">CEO, Dogs corporation.</span>            
+            </aside>
+            <aside class="relative border-[1px] border-blue-600 text-center pt-[25%] pb-5 px-5">
+              <div class="rounded-full w-[28%] md:w-[32%] xl:w-[28%] absolute -top-12 md:-top-14 xl:-top-12 md:left-28 xl:left-32 right-auto left-32 ">
+                <img class="w-full rounded-full" src="images/doctor-11.jpg">
+              </div>
+             <h3 class="text-[30px] text-sky-600 mb-1"><i class="fa-solid fa-quote-left"></i></h3> 
+             <p class="italic gray text-[15px] mb-3">We are one of the leading company and we work on that agency and have seen that this is the best agency.</p>
+             <h3 class="text-[20px] font-semibold mb-2">David Lightle</h3>
+             <span class="gray">Cardiologist</span>            
+            </aside>
+            <aside class="relative border-[1px] border-blue-600 text-center pt-[25%] pb-5 px-5">
+              <div class="rounded-full w-[28%] md:w-[32%] xl:w-[28%]  absolute -top-12 md:-top-14 xl:-top-12 md:left-28 xl:left-32 right-auto left-32 ">
+                <img class="w-full rounded-full" src="images/doctor-12.jpg">
+              </div>
+             <h3 class="text-[30px] text-sky-600 mb-1"><i class="fa-solid fa-quote-left"></i></h3> 
+             <p class="italic gray text-[15px] mb-3">Man can easily make a good experience in this company and this is really and most effective for us and all.</p>
+             <h3 class="text-[20px] font-semibold mb-2">Charles Pope</h3>
+             <span class="gray">Neurologist</span>            
+            </aside>
+          </div>
+        </section>
+        <section class="md:pt-24 pt-14 xl:w-full bg-zinc-100 md:pb-28">
+          <div class="text-center xl:mb-20 mb-11">
+            <p class="mb-2 md:text-[15px] text-[13px]">Doctors list</p>
+            <h2 class="">See all the export doctors</h2> 
+            <div class="h-[2px] bg-black w-[30%] md:w-[12%] xl:w-[10%]  mt-6 mx-auto"></div>
+          </div>
+          <div class="grid grid-cols-1  md:grid-cols-3 gap-5 xl:w-[90%] md:w-full md:px-10 md:mx-auto w-full px-3">
+          <aside class="relative dadbg">
+             <img class="" src="images/doctor-4.jpg">
+             <div class=" bghover absolute w-full h-full text-center xl:pt-[75%] md:pt-[67%] pt-[73%] items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans  ">
+              <h3 class="text-[23px] font-semibold mb-2 text-white">William Nowlin</h3>
+              <span class="text-white">Dental specilist</span>
+              <main class="grid grid-cols-4 gap-2 w-[50%] mx-auto mt-3">
+                <a href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-facebook-f"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-twitter"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-instagram"></i></a>
+              </main>    
+             </div>
+          </aside>
+          <aside class="relative dadbg">
+             <img src="images/doctor-5.jpg">
+             <div class=" bghover absolute w-full h-full text-center xl:pt-[75%] md:pt-[67%] pt-[73%]  items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans  ">
+              <h3 class="text-[23px] font-semibold mb-2 text-white">Dawn Smith</h3>
+              <span class="text-white">CEO, Dogs corporation.</span>
+              <main class="grid grid-cols-4 gap-2 w-[50%] mx-auto mt-3">
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-facebook-f"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-twitter"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-instagram"></i></a>
+              </main>    
+             </div>
+          </aside>
+          <aside class="relative dadbg">
+            <img src="images/doctor-8.jpg">
+            <div class=" bghover absolute w-full h-full text-center xl:pt-[75%] md:pt-[67%] pt-[73%]  items-center justify-center bg-[#0606069e] top-0 left-0  opacity-0  scale_0 trans  ">
+              <h3 class="text-[23px] font-semibold mb-2 text-white">David Lightle</h3>
+              <span class="text-white">Neurologsit</span>
+              <main class="grid grid-cols-4 gap-2 w-[50%] mx-auto mt-3">
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-facebook-f"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-twitter"></i></a>
+                <a  href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#" class="bg-blue-600 rounded-full w-8 h-8 text-white text-[14px] py-[6px] hover:bg-black trans_5"><i class="fa-brands fa-instagram"></i></a>
+              </main>    
+             </div>
+          </aside>
+         </div>
+        </section>
+        <section class="md:py-24 pt-14 xl:w-full pb-10">
+          <div class="text-center xl:mb-8 mb-11">
+            <p class="mb-2 md:text-[15px] text-[13px]">Doctors list</p>
+            <h2 class="">See all the export doctors</h2> 
+            <div class="h-[2px] bg-black w-[30%] md:w-[12%] xl:w-[10%]  mt-6 mx-auto"></div>
+          </div>
+          <div class="grid md:grid-cols-3 xl:px-14 md:w-full md:px-10 md:gap-5 xl:gap-1 mx-auto w-[95%]">
+            <aside  class=" hoveraside w-full mx-auto mt-5 hoveraside  xl:w-[95%] xl:ml-[4%] ">
+              <main class=""><a><img src="images/blog-1.jpg"></a></main>
+              <main class="pr-4 pl-5 pt-3 pb-12 xl:pb-7 text-left bg-white border-b-[1px] trans1 border-x-[1px] border-blue-500 hover:border-white  hover:shadow-xl hover:shadow-slate-200">
+                <p class="gray xl:text-left  font-normal mt-3 mb-4 ">September 25, 2021</p>
+                  <h3 class="  block xl:text-left xl:text-[22px] md:text-[19px] text-[21px] xl:w-[100%] w-full font-semibold text-neutral-800 leading-8">You can easily connect to doctor that makes a treatment</h3>
+                 <div class="xl:mt-12 md:mt-10 mt-10">
+                  <p class="inline-block text-[13px] gray"><i class="fa-regular fa-user"></i></p>
+                  <p class="inline-block gray">23k</p>
+                  <p class="inline-block text-[13px] gray ml-3"><i class="fa-regular fa-comment-dots"></i></p>
+                  <p class="inline-block gray">16k</p>
+                 <p class="inline-block xl:ml-[30%] md:ml-[15%] ml-[22%]"><a class="md:py-[14px] xl:mx-auto border-[1px]  border-sky-600 md:px-6 link  py-[14px] px-6  text-sm xl:text-[14px] text-black font-normal" href="#">Read More</a></p> 
+                </div> 
+              </main>
+            </aside>
+            <aside  class=" hoveraside w-full mx-auto mt-5 hoveraside  xl:w-[95%] xl:ml-[4%] ">
+              <main class=""><a><img src="images/blog-2.jpg"></a></main>
+              <main class="pr-4 pl-5 pt-3 pb-12 xl:pb-7 text-left bg-white border-b-[1px] trans1 border-x-[1px] border-blue-500 hover:border-white  hover:shadow-xl hover:shadow-slate-200">
+                <p class="gray xl:text-left  font-normal mt-3 mb-4 ">September 26, 2021</p>
+                  <h3 class="  block xl:text-left xl:text-[22px] md:text-[19px] text-[21px] xl:w-[100%] w-full font-semibold text-neutral-800 leading-8 ">WHO has connected with us to a new project with everyone</h3>
+                 <div class="xl:mt-12 md:mt-10 mt-10">
+                  <p class="inline-block text-[13px] gray"><i class="fa-regular fa-user"></i></p>
+                  <p class="inline-block gray">23k</p>
+                  <p class="inline-block text-[13px] gray ml-3"><i class="fa-regular fa-comment-dots"></i></p>
+                  <p class="inline-block gray">16k</p>
+                 <p class="inline-block xl:ml-[30%] md:ml-[15%] ml-[22%]"><a class="md:py-[14px] xl:mx-auto border-[1px]  border-sky-600 md:px-6 link  py-[14px] px-6  text-sm xl:text-[14px] text-black font-normal" href="#">Read More</a></p> 
+                </div> 
+              </main>
+            </aside>
+            <aside  class=" hoveraside w-full mx-auto mt-5 hoveraside  xl:w-[95%] xl:ml-[4%] ">
+              <main class=""><a><img src="images/blog-3.jpg"></a></main>
+              <main class="pr-4 pl-5 pt-3 pb-12 xl:pb-7 text-left bg-white border-b-[1px] trans1 border-x-[1px] border-blue-500 hover:border-white  hover:shadow-xl hover:shadow-slate-200">
+                <p class="gray xl:text-left  font-normal mt-3 mb-4 ">September 28, 2021</p>
+                  <h3 class="  block xl:text-left xl:text-[22px] md:text-[19px] text-[21px] xl:w-[100%] w-full font-semibold text-neutral-800 leading-8">Doctors have made a good deal with the researcher</h3>
+                 <div class="xl:mt-12 md:mt-10 mt-10">
+                  <p class="inline-block text-[13px] gray"><i class="fa-regular fa-user"></i></p>
+                  <p class="inline-block gray">23k</p>
+                  <p class="inline-block text-[13px] gray ml-3"><i class="fa-regular fa-comment-dots"></i></p>
+                  <p class="inline-block gray">16k</p>
+                 <p class="inline-block xl:ml-[30%] md:ml-[15%] ml-[22%]"><a class="md:py-[14px] xl:mx-auto border-[1px]  border-sky-600 md:px-6 link  py-[14px] px-6  text-sm xl:text-[14px] text-black font-normal" href="#">Read More</a></p> 
+                </div> 
+              </main>
+            </aside>
+           </div> 
+        </section>
+       <footer class="w-full md:pt-24 md:pb-24 pt-10 pb-9 bg-[rgb(224,250,246)]">
+          <main class="grid md:grid-cols-2 md:gap-5 xl:w-[95%] w-[95%] md:pl-5 md:pr-16 mx-auto"> 
+            <aside class="grid md:grid-cols-2 ">
+              <div>
+                <h2 class="xl:text-[25px]  md:text-[19px] text-[19px]  xl:mb-3 md:mb-1 mb-3">Find Us</h2>
+                <h3 class="gray xl:w-[85%] md:w-full xl:text-[15px] text-[13px] leading-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</h3>
+                <aside class="flex mt-3  gray">
+                  <p class="text-[13px] mr-3"><i class="fa-solid fa-location-dot"></i></p>
+                  <h3 class="gray">5021 Franklee Lane, USA</h3>
+                </aside>
+                <aside class="gray mt-1 icon">
+                  <a class="text-[13px] mr-2 " href="#"><i class="fa-solid fa-phone-volume"></i></a>
+                  <a class="a trans_5" href="#">+267-784-4336</a>
+                </aside>
+                <aside class="gray  mt-1 icon">
+                  <a class="text-[13px] mr-3" href="#"><i class="fa-regular fa-comment-dots"></i></a>
+                  <a class="a hover:translate-x-1" href="#">info@covax.com</a>
+                </aside>
+               </div>
+               <div class="md:ml-[20%] mt-7 md:mt-0">
+                <h2 class="xl:text-[25px]  md:text-[19px] text-[19px] xl:mb-3 md:mb-1 mb-3">Quick Links</h2>
+                <ul class=" gray">
+                  <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">General information</a></li> 
+                  <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Emergency service</a></li>
+                  <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Ambulance</a></li> 
+                  <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Medical research</a></li> 
+                  <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Blood bank service</a></li>  
+                  <li  class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Intensive care unit</a></li> 
+                </ul>
+              </div>
+            </aside>
+          <aside  class="grid md:grid-cols-2">
+            <div class="md:ml-auto mt-7 md:mt-0">
+              <h2 class="xl:text-[25px] md:text-[19px] text-[19px] w-full xl:mb-3 md:mb-1">Join To Our Community</h2>
+              <ul class=" gray">
+                <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Posted on to our blogs</a></li>
+                <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Join to our forum</a></li>
+                <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Meet up with our doctors</a></li> 
+                <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Medical research</a></li> 
+                <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Help center</a></li>
+                <li class="mb-1 hover:text-blue-600 hover:translate-x-1 trans_5 md:text-[15px] text-[13px]"><a href="#">Contract with us</a></li> 
+              </ul>
+              </div>
+             <div class="md:ml-auto mt-7 md:mt-0">
+              <h2 class="xl:text-[25px]  md:text-[19px] text-[19px] xl:mb-3 md:mb-1 mb-3">Open time</h2>
+              <ul>
+                <li class="mb-1 "><h3 class="gray text-[13px]  md:text-[15px]">Mon-Fri 8:00 AM - 10:00 PM</h3> </li>
+                <li class="mb-1"><h3 class="gray text-[13px]  md:text-[15px]">Sat-Sun 9:00 AM - 6:00 PM</h3></li>
+                <li class="mb-1"><h3 class="gray text-[13px]  md:text-[15px]">Emergency service 24 hours</h3></li>
+              </ul>
+              <aside class="mt-5 md:w-full grid grid-cols-4 md:gap-1 w-[50%]">
+                <a class="w-9 h-9 text-[15px] py-[8px] px-[13px] text-white bg-[#578a04] rounded-full hover:bg-sky-600 trans_5" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a class="w-9 h-9 text-[15px] py-[8px] px-[12px] text-white bg-[#9e0469] rounded-full hover:bg-sky-600 trans_5" href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a class="w-9 h-9 text-[15px] py-[8px] px-[12px] text-white bg-[#aa3202] rounded-full hover:bg-sky-600 trans_5" href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a class="w-9 h-9 text-[15px] py-[8px] px-[11px] text-white bg-[#4d07a8] rounded-full hover:bg-sky-600 trans_5" href="#"><i class="fa-brands fa-instagram"></i></a>
+              </aside>
+          </aside>
+         
+           </div>
+          </main>
+        </footer>
+        <section class="w-full bg-[#3d4461]">
+          <div class="xl:w-[90%]  py-6 text-center">
+            <aside class="md:flex xl:ml-[38%] md:ml-[33%] xl:w-[33%] md:w-[50%] w-[100%]">
+              <h3 class="text-white">Copyright @2022 Covax. All rights reserved</h3>
+              <p class="ml-1"><a href="https://hibootstrap.com/" class="text-[#207ef7] hover:text-white trans_5">Hibootstrap</a></p>
+            </aside>
+          </div>
+        </section>
+
+        <a   href="https://themeforest.net/checkout/from_item/29123542?license=regular&amp;support=bundle_6month&amp;_ga=2.101972547.317761313.1648883762-918236941.1644836235"  class="buy-now-btn"><img class="inline-block w-" src="./images/envato.png" alt="envato">Buy Now</a>
+         </body>
+    </html>

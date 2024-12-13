@@ -1,0 +1,19 @@
+Create folders 
+
+npm init -y                                      //////package.json
+npm install -D tailwindcss                      ////// package-lock.json
+npx tailwindcss init                           ///// لتعديل علي المكتبه config.js
+
+content: ["./public/**/*.{html,js}"],         /////// tailwind.config
+---------------------------------------------------------------------------------------------
+
+Create folder name styls.css {               /////   لانشاء ملف السيأسس الخاص ب المكتبه
+    // AND but these 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+}
+----------------------------------------------------------------------------------------------
+ 
+npx tailwindcss -i ./styls.css -o ./public/style/tailwindcss.css --watch      //// اذا بدنا انعدل اشي لازم نطبع لامر هدا كمان مره
+
